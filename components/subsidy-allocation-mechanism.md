@@ -10,7 +10,7 @@ Although Olas employs a [quadratic funding mechanism](funding-mechanism/) to dis
 
 ### **Funding Sources and Allocation**
 
-At the heart of Olas' funding ecosystem lies the Olas [Global Pool](funding-mechanism/global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to generally supporting journalism, ensuring that financial resources are available to support diverse and high-quality reporting.
+At the heart of Olas' funding ecosystem lies the Olas [Global Pool](funding-mechanism/global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
 
 The Global Pool isn't controlled by anybody and funds allocated by it are determined by a number of metrics in a credibly neutral manner. This decentralized approach ensures that the allocation of resources is transparent, accountable, and aligned with the community's priorities.
 
@@ -31,10 +31,10 @@ Olas uses a ranking algorithm to fairly and effectively distribute subsidies to 
 
 ### **Fund Distribution and Journalist Allocation**
 
-Higher-ranked sub-pools get more funding based on their performance, ensuring resources support top-quality journalism and community engagement.
+Higher-ranked sub-pools get more funding based on interest, ensuring resources support top-quality journalism and community engagement.
 
 Journalists in each sub-pool receive funds proportional to their received donations, incentivising high-quality content production.
 
-### **Initial Ranking and Consecutive Rounds**
+### **Mininum and Maximum Funding**
 
-Initially, all sub-pools on Olas have an initial ranking, allowing new sub-pools to establish themselves and gain support from active donors without the pressure of a ranking system. However, as sub-pools evolve and demonstrate their value, they are gradually integrated into the ranking system, ensuring that subsidies are distributed fairly and effectively.
+In order to guard against the short-term whims of consumers of news causing centralisation of topics covered, Olas will ensure that there will be a minimum amount of funds available for any topic there is at least some demand for, no matter how small that demand is, as well as a maximum any pool can receive. The goal here is to avoid the ever-narrowing breadth of topics that is occuring in centralised news and science media.  &#x20;
