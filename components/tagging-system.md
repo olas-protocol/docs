@@ -8,7 +8,7 @@ The Tagging System implemented on Olas serves as a pivotal tool for curating and
 
 ### Olas-Generated Tags
 
-Each [Sub-Pool](funding-mechanism/sub-pool.md) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
+Each [Sub-Pool](funding-mechanisms/sub-pool.md) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
 
 ### User-Generated Tags
 

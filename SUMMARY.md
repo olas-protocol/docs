@@ -14,11 +14,11 @@
 ## Components
 
 * [Identity Layer](components/identity-layer.md)
-* [Subsidy Allocation Mechanism](components/subsidy-allocation-mechanism.md)
-* [Funding Mechanism](components/funding-mechanism/README.md)
-  * [Quadratic Funding](components/funding-mechanism/quadratic-funding.md)
-  * [Global Pool](components/funding-mechanism/global-pool.md)
-  * [Sub-Pool](components/funding-mechanism/sub-pool.md)
+* [Funding Mechanisms](components/funding-mechanisms/README.md)
+  * [Subsidy Allocation Mechanism](components/funding-mechanisms/subsidy-allocation-mechanism.md)
+  * [Quadratic Funding](components/funding-mechanisms/quadratic-funding.md)
+  * [Global Pool](components/funding-mechanisms/global-pool.md)
+  * [Sub-Pool](components/funding-mechanisms/sub-pool.md)
 * [Information Markets](components/information-markets/README.md)
   * [Fact Reporting Markets](components/information-markets/fact-reporting-markets.md)
   * [Investigative Journalism & Academic Research Markets](components/information-markets/investigative-journalism-and-academic-research-markets.md)

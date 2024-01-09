@@ -2,7 +2,7 @@
 description: Economic sustainability for a diverse information industry
 ---
 
-# Funding Mechanism
+# Funding Mechanisms
 
 Olas has a unique funding mechanism that uses a combination of two implentations of quadratic funding, a global matching pool and sub pools to fund a wide range of voices and geographies.&#x20;
 
@@ -18,9 +18,9 @@ The Olas Global Matching Pool is open for anyone to donate to at any time. It is
 
 Olas sub pools are deployed by Olas admins for topics that require regular reporting. Active donors participate in funding competitions that occur in these sub pools.&#x20;
 
-[**Demand-Based Allocation**](../subsidy-allocation-mechanism.md)
+[**Demand-Based Allocation**](subsidy-allocation-mechanism.md)
 
-Olas implements a market-based allocation system to ensure fair and efficient distribution of funds to topics and journalists that deserve them most[.](../subsidy-allocation-mechanism.md) This system evaluates the level of interest in articles in each sub-pool based on a set of metrics that reflect this interest.     &#x20;
+Olas implements a market-based allocation system to ensure fair and efficient distribution of funds to topics and journalists that deserve them most[.](subsidy-allocation-mechanism.md) This system evaluates the level of interest in articles in each sub-pool based on a set of metrics that reflect this interest.     &#x20;
 
 **How it Works**
 

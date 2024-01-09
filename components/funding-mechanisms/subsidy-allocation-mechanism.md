@@ -6,11 +6,11 @@ description: >-
 
 # Subsidy Allocation Mechanism
 
-Although Olas employs [quadratic funding ](funding-mechanism/)competitions to distribute funds among contributors writing on the same topics, the platform needs another mechanism to allocate passively donated funds to news topics in the first place. This mechanism is dedicated to news reporting and opinions as investigative journalism/academic research have a unique fundraising mechanism.&#x20;
+Although Olas employs [quadratic funding ](./)competitions to distribute funds among contributors writing on the same topics, the platform needs another mechanism to allocate passively donated funds to news topics in the first place. This mechanism is dedicated to news reporting and opinions as investigative journalism/academic research have a unique fundraising mechanism.&#x20;
 
 ### **Funding Sources and Allocation**
 
-At the heart of Olas' funding ecosystem lies the Olas [Global Pool](funding-mechanism/global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
+At the heart of Olas' funding ecosystem lies the Olas [Global Pool](global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
 
 The Global Pool isn't controlled by any single entity and funds allocated by it are determined by a number of market-based metrics in a credibly neutral manner. This decentralized approach ensures that the allocation of resources is transparent, accountable, and aligned with consumer priorities.
 
@@ -27,7 +27,7 @@ Olas uses a quadratic formula to fairly and effectively distribute subsidies to 
 3. Number of tippers in each sub pool.
 4. Total tips received by each sub pool.
 
-<figure><img src="../.gitbook/assets/Subsidy Allocation Mechanism (1).png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Subsidy Allocation Mechanism (1).png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
 
 ### **Fund Distribution and Journalist Allocation**
 
