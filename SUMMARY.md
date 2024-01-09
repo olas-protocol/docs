@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Markets Overview](markets-overview.md)
+* [Protocol Overview](protocol-overview.md)
 
 ## Participants
 
@@ -15,11 +15,11 @@
 
 * [Identity Layer](components/identity-layer.md)
 * [Initial Monetary Subsidy](components/initial-monetary-subsidy.md)
-* [Funding Mechanisms](components/funding-mechanisms/README.md)
-  * [Subsidy Allocation Mechanism](components/funding-mechanisms/subsidy-allocation-mechanism.md)
-  * [Quadratic Funding](components/funding-mechanisms/quadratic-funding.md)
-  * [Global Pool](components/funding-mechanisms/global-pool.md)
-  * [Sub-Pool](components/funding-mechanisms/sub-pool.md)
+* [News & Opinion Funding Mechanisms](components/news-and-opinion-funding-mechanisms/README.md)
+  * [Subsidy Allocation Mechanism](components/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md)
+  * [Quadratic Funding](components/news-and-opinion-funding-mechanisms/quadratic-funding.md)
+  * [Global Pool](components/news-and-opinion-funding-mechanisms/global-pool.md)
+  * [Sub-Pool](components/news-and-opinion-funding-mechanisms/sub-pool.md)
 * [Information Markets](components/information-markets/README.md)
   * [Fact Reporting Markets](components/information-markets/fact-reporting-markets.md)
   * [Investigative Journalism & Academic Research Markets](components/information-markets/investigative-journalism-and-academic-research-markets.md)

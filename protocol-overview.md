@@ -1,8 +1,8 @@
 ---
-description: High-Level Overview of Olas Market Mechanisms
+description: High-Level Overview of the Olas Protocol
 ---
 
-# Markets Overview
+# Protocol Overview
 
 Olas consists of three information markets: **Fact Reporting Market**, **Investigative Journalism & Academic Research Markets,** and **Opinion Markets**. These markets follow a similar process from a high level with differences in how the incentives work via specific mechanism designs.&#x20;
 
