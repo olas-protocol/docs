@@ -14,6 +14,7 @@
 ## Components
 
 * [Identity Layer](components/identity-layer.md)
+* [Initial Monetary Subsidy](components/initial-monetary-subsidy.md)
 * [Funding Mechanisms](components/funding-mechanisms/README.md)
   * [Subsidy Allocation Mechanism](components/funding-mechanisms/subsidy-allocation-mechanism.md)
   * [Quadratic Funding](components/funding-mechanisms/quadratic-funding.md)

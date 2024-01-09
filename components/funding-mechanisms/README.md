@@ -1,10 +1,12 @@
 ---
-description: Economic sustainability for a diverse information industry
+description: Granting economic sustainability to an open and diverse information industry
 ---
 
 # Funding Mechanisms
 
-Olas has a unique funding mechanism that uses a combination of two implentations of quadratic funding, a global matching pool and sub pools to fund a wide range of voices and geographies.&#x20;
+Olas is an ownerless non-profit protocol that aims to replace advertising and subscriptions as the dominant economic models in the information industry. In the absence of both these models, charity becomes the only viable option to fund contributors. Further, without any central authority to allocate funds raised across the platform, well-designed mechanisms robust to collusion and control by the wealthy that reflect real community preferences are required. Olas will harness the very latest scientific advances in market designs for public goods funding in order to achieve this.&#x20;
+
+Funds will be allocated across topics and writers using credibly neutral mechanisms.&#x20;
 
 The following sequence diagram demonstrates how the Olas funding mechanism works:
 
