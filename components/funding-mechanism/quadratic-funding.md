@@ -1,14 +1,16 @@
+---
+description: A more democratic market-based method of funding public goods
+---
+
 # Quadratic Funding
 
-Let's understand why Olas uses a quadratic funding mechanism over a traditional funding mechanism.
+Charity has been used for centuries to raise money for various projects and causes. It typically involve donors giving money to individuals or organizations, sometimes in exchange for nothing, sometimes in exchange for benefits such as tax breaks, social recognition, or access to exclusive goods or services.
 
-Traditional funding mechanisms have been used for centuries to raise money for various projects and causes. These mechanisms typically involve donors giving money to individuals or organizations in exchange for a variety of benefits, such as tax breaks, social recognition, or access to exclusive goods or services.
-
-Quadratic funding is a newer funding mechanism that has been gaining popularity in recent years. It is a decentralized funding mechanism that uses blockchain technology to match donations to funding recipients (Contributors in the case of Olas) based on the number of unique donors and the total amount donated.
+Quadratic funding is a radically new funding mechanism that not only seeks to create private markets for public goods, but seeks to do so in a way that more accurately reflects broader community preferences than vanilla market mechanisms do. It achieves this by employing a matching pool for donations to competing projects and employing a formula that gives more weight to the number of people that donate than the amount of money donated.&#x20;
 
 Here is a table that summarizes the key differences between traditional funding mechanisms and quadratic funding:
 
-<table><thead><tr><th width="161">Feature</th><th width="306.3333333333333">Traditional funding mechanisms</th><th>Quadratic funding</th></tr></thead><tbody><tr><td>How it works</td><td>Donors give money to individuals or organizations in exchange for a variety of benefits.</td><td>Donors give money to projects based on their support for those projects. Donations are matched based on the number of unique donors and the total amount donated.</td></tr><tr><td>Who benefits</td><td>Donors typically receive the greatest benefits, such as tax breaks, social recognition, or access to exclusive goods or services.</td><td>Projects with a large number of unique donors benefit the most, even if those donors are only donating small amounts.</td></tr><tr><td>Advantages</td><td>Simple and easy to understand.</td><td>More democratic, efficient, and collusion-resistant than traditional funding mechanisms.</td></tr><tr><td>Disadvantages</td><td>Can be susceptible to collusion and corruption.</td><td>More complex than traditional funding mechanisms.</td></tr></tbody></table>
+<table><thead><tr><th width="161">Feature</th><th width="306.3333333333333">Traditional funding mechanisms</th><th>Quadratic funding</th></tr></thead><tbody><tr><td>How it works</td><td>Donors give money to individuals or organizations.</td><td>Donors give money to projects based on their support for those projects. Donations are matched based on the number of unique donors and the total amount donated.</td></tr><tr><td>Who benefits</td><td>Donors typically receive the greatest benefits, such as tax breaks, social recognition, or access to exclusive goods or services.</td><td>Projects with a large number of unique donors benefit the most, even if those donors are only donating small amounts.</td></tr><tr><td>Advantages</td><td>Simple and easy to understand.</td><td>More democratic, efficient, and collusion-resistant than traditional funding mechanisms.</td></tr><tr><td>Disadvantages</td><td>Can be susceptible to collusion and corruption.</td><td>More complex than traditional funding mechanisms.</td></tr></tbody></table>
 
 Here is a diagram explaining the difference between traditional and quadratic funding mechanisms:
 
