@@ -20,7 +20,7 @@ To support diverse reporting, The Olas Foundation will establish specialised sub
 
 ### **Ranking Algorithm for Sub Pool Allocation**
 
-As is the case in contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations). 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on quadratic funding refer to following sections.  This algorithm considers various factors:
+As is the case with contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations) 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on quadratic funding refer to following sections. This algorithm considers various factors:
 
 1. Number of active donors that participated in previous funding rounds in each sub-pool.
 2. Total donations received by each sub pool.
