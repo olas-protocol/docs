@@ -17,7 +17,7 @@
 * [Initial Monetary Subsidy](components/initial-monetary-subsidy.md)
 * [News & Opinion Funding Mechanisms](components/news-and-opinion-funding-mechanisms/README.md)
   * [Subsidy Allocation Mechanism](components/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md)
-  * [Quadratic Funding](components/news-and-opinion-funding-mechanisms/quadratic-funding.md)
+  * [Quadratic Funding Competitions](components/news-and-opinion-funding-mechanisms/quadratic-funding-competitions.md)
   * [Global Pool](components/news-and-opinion-funding-mechanisms/global-pool.md)
   * [Sub-Pool](components/news-and-opinion-funding-mechanisms/sub-pool.md)
 * [Investigative Journalism & Scientific Research Funding Mechanism](components/investigative-journalism-and-scientific-research-funding-mechanism.md)
