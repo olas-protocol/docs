@@ -31,7 +31,7 @@ As is the case with contributor competitions, Olas uses a quadratic formula to d
 
 ### **Fund Distribution and Journalist Allocation**
 
-Sub pools pools are ranked according to quadratic rules which are biased more towards the number of donors rather than the amount of money donated. This makes it far harder for the wealthy to game the system. The ranking system in turns determines their share of the global pool at the funding snapshot each quarter. In order to prevent contributors '[banging the close](https://www.marketswiki.com/wiki/Banging\_the\_Close)' with a slew of articles at the end of every quarter to artificially increase their funding prospects snapshots will be randomised. &#x20;
+Sub pools pools are ranked according to quadratic rules which are biased more towards the number of donors rather than the amount of money donated. This makes it far harder for the wealthy to game the system. The ranking system in turns determines their share of the global pool at the funding snapshot each quarter. In order to prevent contributors '[banging the close](https://www.marketswiki.com/wiki/Banging\_the\_Close)' with a bunch of articles at the end of every quarter to increase their funding prospects, snapshots will be randomised. &#x20;
 
 ### **Mininum and Maximum Funding**
 
