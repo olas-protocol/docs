@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Protocol Overview](protocol-overview.md)
+* [Markets Overview](markets-overview.md)
 
 ## Participants
 
