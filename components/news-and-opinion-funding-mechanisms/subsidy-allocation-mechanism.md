@@ -20,7 +20,7 @@ To support diverse reporting, The Olas Foundation will establish specialised sub
 
 ### **Ranking Algorithm for Sub Pool Allocation**
 
-As is the case with contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations) 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on quadratic funding refer to following sections. This algorithm considers various factors:
+As is the case with contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations) 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on [quadratic funding](quadratic-funding-competitions.md) refer to following sections. This algorithm considers various factors:
 
 1. Number of active donors that participated in previous funding rounds in each sub-pool.
 2. Total donations received by each sub pool.
@@ -29,10 +29,10 @@ As is the case with contributor competitions, Olas uses a quadratic formula to d
 
 <figure><img src="../../.gitbook/assets/Subsidy Allocation Mechanism (1).png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
 
-### **Fund Distribution and Journalist Allocation**
+### **Funds Distribution**
 
-Sub pools pools are ranked according to quadratic rules which are biased more towards the number of donors rather than the amount of money donated. This makes it far harder for the wealthy to game the system. The ranking system in turns determines their share of the global pool at the funding snapshot each quarter. In order to prevent contributors '[banging the close](https://www.marketswiki.com/wiki/Banging\_the\_Close)' with a bunch of articles at the end of every quarter to increase their funding prospects, snapshots will be randomised. &#x20;
+Once all the sub pools receive a ranking for the next funding round, their share of the global pool is calculated. There is no guaranteed amount of matching funds, every sub pool simply receives a percentage of whats available, a percentage that's dictated by ranking scores. In order to prevent contributors '[banging the close](https://www.marketswiki.com/wiki/Banging\_the\_Close)' by publishing a bunch of articles at the end of every quarter to increase the funding prospects for their areas of specialty, snapshots will be randomised. &#x20;
 
 ### **Mininum and Maximum Funding**
 
-In order to guard against the short-term whims of consumers of news causing centralisation of topics covered, Olas will ensure that there will be a minimum amount of funds available for any topic there is at least some demand for, no matter how small that demand is, as well as a maximum any pool can receive. The goal here is to avoid the ever-narrowing breadth of topics or over-funding of fashionable topics that occures in centralised news and science media.  &#x20;
+To guard against the short-term whims of consumers of news causing centralisation of topics covered, Olas will ensure that there will be a minimum share of available matching funds for any topic there is at least _some_ demand for, no matter how small that demand is, as well as a maximum share any single pool can receive. The goal here is to avoid the ever-narrowing breadth of topics or over-funding of fashionable topics that occures in centralised news and science media.  &#x20;
