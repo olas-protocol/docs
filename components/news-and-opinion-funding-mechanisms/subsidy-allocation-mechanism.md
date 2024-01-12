@@ -10,7 +10,7 @@ Although Olas employs [quadratic funding ](./)competitions to distribute funds a
 
 ### **Funding Sources and Allocation**
 
-At the heart of Olas' funding ecosystem lies the Olas [Global Pool](global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
+At the heart of Olas' funding ecosystem lies the Olas [Global Pool](../global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
 
 Since the Global Pool isn't controlled by any single entity, funds must be allocated by it using decentralised mechanisms. The challenge with using such mechanisms is to design them so they cannot be gamed by colluding agents. Olas has been designed with this in mind so that funds are allocated in a transparent, accountable and credibly neutral manner.&#x20;
 

@@ -2,7 +2,7 @@
 description: Granting economic sustainability to an open and diverse information industry
 ---
 
-# Funding Mechanisms
+# News & Opinion Funding Mechanisms
 
 Olas is an ownerless non-profit protocol that aims to replace advertising and subscriptions as the dominant economic models in the information industry. In the absence of both these models, charity becomes the only viable option to fund contributors. Further, without any central authority to allocate funds raised across the platform, well-designed mechanisms robust to collusion and control by the wealthy that reflect real community preferences are required. Olas will harness the very latest scientific advances in market designs for public goods funding in order to achieve this.&#x20;
 
@@ -12,11 +12,11 @@ The following sequence diagram demonstrates how the Olas funding mechanism works
 
 <figure><img src="../../.gitbook/assets/Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
 
-[**Olas Global Matching Pool**](global-pool.md)
+[**Olas Global Matching Pool**](../global-pool.md)
 
 The Olas Global Matching Pool is open for anyone to donate to at any time. It is envisaged that avid readers, high net worth individuals, corporations and governments, many of whom have an interest in an informed society, will donate to this pool.&#x20;
 
-[**Olas Sub Pools**](sub-pool.md)
+[**Olas Sub Pools**](../sub-pools.md)
 
 Olas sub pools are deployed by Olas admins for topics that require regular reporting. Active donors participate in funding competitions that occur in these sub pools.&#x20;
 
