@@ -4,7 +4,7 @@ description: Granting economic sustainability to an open and diverse information
 
 # News & Opinion Funding Mechanisms
 
-Olas is an ownerless non-profit protocol that aims to replace advertising and subscriptions as the dominant economic models in the information industry. In the absence of both these models, charity becomes the only viable option to fund contributors. Further, without any central authority to allocate funds raised across the platform, well-designed mechanisms robust to collusion and control by the wealthy that reflect real community preferences are required. Olas will harness the very latest scientific advances in market designs for public goods funding in order to achieve this.&#x20;
+Olas aims to replace advertising and subscriptions as the dominant economic models in the information industry. In the absence of both these models, charity becomes the only viable option to fund contributors. Further, without any central authority to allocate funds raised across the platform, well-designed mechanisms robust to collusion and control by the wealthy that reflect real community preferences are required. Olas will harness the very latest scientific advances in market designs for public goods funding in order to achieve this.&#x20;
 
 Funds will be allocated across topics and writers using credibly neutral mechanisms.&#x20;
 

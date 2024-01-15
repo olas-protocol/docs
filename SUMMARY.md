@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Economic Model Overview](economic-model-overview.md)
-* [Markets Overview](markets-overview.md)
+  * [Economic Model Overview](introduction/economic-model-overview.md)
+  * [Information Markets Overview](introduction/information-markets-overview.md)
 
 ## Participants
 
