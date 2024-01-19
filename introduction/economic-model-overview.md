@@ -40,17 +40,31 @@ What is needed is a truly ownerless non-hierarchical platform to avoid these iss
 
 Another way blockchains have changed the game is via tokenisation. In order for dApps to be trusted their code must be open source and examinable by all given their is nobody at the helm and consequently no recourse if anything goes wrong.  Since open source code is a public good free for anyone to replicate, there has rarely been economic incentive to create this type of software. For that reason the internet is dominate by proprietary platforms with open source relegated to the domain of hobbyists and ideologues.&#x20;
 
-Tokenisation has completely turned this situation on its head by attaching native tokens to open source decentralised applications. If a dApp proves popular, the value of the token, if designed on sound economics, can appreciate much like the stock of a successful business does. This final piece of the jigsaw means that not only are ownerless platforms possible, they are viable competitors to proprietary platforms. In fact they possess economic incentives advantages that proprietary platforms don't.
+Tokenisation has completely turned this situation on its head by attaching native tokens to open source decentralised applications. If a dApp proves popular, the value of the token, if designed on sound economics, can appreciate much like the stock of a successful business does. This final piece of the jigsaw means that not only makes ownerless platforms possible, they are now viable competitors to proprietary platforms. In fact they possess economic incentives advantages that proprietary platforms don't.
 
 _For a much more in-depth discussion on this, refer to Olas intro video 3._  &#x20;
 
-### Subsidies are Becoming a Viable Model
+### Donations are Becoming a Viable Economic Model
 
 On account of blockchain techonolgy subsidies are becoming a viable alternative to advertising. The primary reason for this is that blockchain protocols have heralded the arrival of native payments infrastructure for the internet. This means people can make payments to each other without having to go through payments intermediaries. Peer-to-peer payments on blockchains more resemble cash payments than they do current intermediated digital payments systems. Since these intermediaries are removed from the equation, the costs associated with using them do too. It is these costs that have rendered low value payments (micropayments) on the internet uneconomical. However, they become possible once blockchains can be scaled to meet the throughput demands of internet-scale usage. These scaling improvements have been in the pipeline for some years with some now in production with others almost upon us. Consequently, the possibilty of internet micropayments is on the horizon.
 
-Another benefit of blockchain technology in this regard is that it also enables people to fundraise without intermediaries. These intermediaries, for good reason, are heavily regulated to prevent fraud or abuse of trust with donor money. This regulation, in turn, creates a lot of cost and friction that can be removed from the equation in a peer-to-peer system with decentralised fraud prevention systems. The result is that money can flow to those creating public goods far more easily and efficiently.&#x20;
+Another benefit of blockchain technology in this regard is that it also enables people to fundraise without intermediaries. These intermediaries, for good reason, are heavily regulated to prevent fraud or abuse of trust with donor money. This regulation, in turn, creates a lot of cost and friction that can be removed from the equation in a peer-to-peer system with decentralised fraud prevention systems. The result is that money can flow to those creating public goods far more easily and efficiently. &#x20;
 
-### Charity Needs Competition Too
+### Charity Benefits from Competition&#x20;
 
 In their efforts to maintain oversight of the charity industry, governments tend to only allow a single entity for each sector. This maximises their ability to oversee that sector because if there were numerous charities in each sector, it'd be much more difficult to keep tabs on them all. Again, this is an entirely rational strategy that no doubt reduces fraud in the charities sector. However it comes with a great cost too. It deprives each sector of the phenomenon that is by far the best mechanism for achieving higher quality output and value for money: Market competition.&#x20;
+
+On an ownerless platform, where quality control and fraud prevention must necessarily come from the crowd, it's no greater burden monitoring thousands of people than it is one person. Anyone seeking to raise money must submit to mechanisms designed to reward good behaviours while punishing bad ones. _Detailed information on these mechanisms can be found throughout these docs._&#x20;
+
+The beauty of this reality is that public goods funding on a system like Olas can be subject to market forces even if a purely private market is ill-suited to providing public goods. Competitions can be established so people can compete for donations and past performance on the system can be tracked so that donors can use this information to donate to those that provide the best products.&#x20;
+
+
+
+## Economic Model Summary
+
+1. Development of the decentralised platform will be funded by tokenisation. It will have a native currency called Olas. A small percentage of each Olas transaction will be burned to reduce supply, making Olas an attractive investment if the platform is popular.
+2. The supply of information will also be initially subsidised by currency issuance but then via donations after a few years. Donations can be made through funding competitions to pre-fund the work of contributors and can also come after work has been published in the form of tips.&#x20;
+3. All information will be subject to market forces that will provide a score on its quality/accuracy. Market designs are specifically tailored to the type of information they're adjuticating on. Payouts are entirely dependent on performance in these markets.&#x20;
+4. A reputation score will act as a collective memory of a contributor's performance in the markets.&#x20;
+5. Money returned to the system by below par work will be re-used in future funding competitions.&#x20;
 
