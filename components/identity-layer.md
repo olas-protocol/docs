@@ -12,6 +12,8 @@ While Olas is open for reading by anyone, active participation and access to cer
 
 ### Users that must be Verified
 
+Certain roles require a unique humanity verification to maintain the integrity of the system:
+
 [**Content Contributor**:](../participants/content-contributor.md) Verified users who produce content for the platform undergo a thorough verification process before they can begin contributing.
 
 [**Active donor**:](broken-reference) Users who can donate to content contributors via Olas funding rounds. Their donations may be magnified via the Quadratic Funding mechanisms, which allocate funds based on both the amount of funding and the number of donors.&#x20;
@@ -20,17 +22,9 @@ While Olas is open for reading by anyone, active participation and access to cer
 
 [**Judge**:](broken-reference) Evaluates the inaccuracies raised by fact checkers and determines the validity of the issues submitted. Judges are rewarded based on their participation in the judging panel. Fact-checkers with high reputation scores may participate in judging panels as **Super Forecasters**, along with **randomly** selected **content contributors (Judges)**.&#x20;
 
-### Unique Humanity Verification
-
-Certain roles require a unique humanity verification to maintain Olas' integrity, thwart misuse, and prevent Sybil attacks. Unique humanity verification is mandatory for **Content Contributors, Donors,** and **Fact-checkers**. This ensures that a genuine human creates each unique user profile on Olas.&#x20;
-
 ### Olas User Registry
 
 Post-verification, users (Journalists, Donors, Fact Checkers) are enlisted in the "Olas User Registry". This registry maintains a list of all the verified users, their roles, and associated details, ensuring a structured management of user profiles while adhering to privacy standards.
-
-### Judging Panel
-
-The integrity of judging panel is vital to the quality of output on the platform. Content Contributors are selected, based on their expertise and reputation scores, to become Judges. This ensures impartial and informed evaluations of the content published on the platform.
 
 ### Pseudonymity & Privacy
 
