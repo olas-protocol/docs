@@ -63,7 +63,7 @@ The beauty of this reality is that public goods funding on a system like Olas ca
 ## Economic Model Summary
 
 1. Development of the decentralised platform will be funded by tokenisation. It will have a native currency called Olas. A small percentage of each Olas transaction will be burned to reduce supply, making Olas an attractive investment if the platform is popular.
-2. The supply of information will also be initially subsidised by currency issuance but then via donations after a few years. Donations can be made through funding competitions to pre-fund the work of contributors and can also come after work has been published in the form of tips.&#x20;
+2. The supply of information will also be initially subsidised by currency issuance but then via donations after a few years. Donations can be made through funding competitions to pre-fund the work of contributors and can also come after work has been published in the form of tips. There will be no paywall. The information is free to all and donation is a choice.&#x20;
 3. All information will be subject to market forces that will provide a score on its quality/accuracy. Market designs are specifically tailored to the type of information they're adjuticating on. Payouts are entirely dependent on performance in these markets.&#x20;
 4. A reputation score will act as a collective memory of a contributor's performance in the markets.&#x20;
 5. Money returned to the system by below par work will be re-used in future funding competitions.&#x20;
