@@ -8,17 +8,17 @@ Olas aims to replace advertising and subscriptions as the dominant economic mode
 
 Funds will be allocated across topics and writers using credibly neutral mechanisms.&#x20;
 
-The following sequence diagram demonstrates how the Olas funding mechanism works:
+The following sequence diagram demonstrates how the Olas funding mechanism for news and opinion works:
 
 <figure><img src="../../.gitbook/assets/Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
 
-[**Olas Global Matching Pool**](../global-pool.md)
+[News and Opinion Pool](../sub-pools.md)
 
-The Olas Global Matching Pool is open for anyone to donate to at any time. It is envisaged that avid readers, high net worth individuals, corporations and governments, many of whom have an interest in an informed society, will donate to this pool.&#x20;
+Every quarter a certain percentage of the donations of avid readers, high net worth individuals, corporations and governments will be allocated to the News and Opinion Pool by the Olas Foundation.&#x20;
 
-[**Olas Sub Pools**](../sub-pools.md)
+[News and Opinion Sub Pools](../sub-pools.md)
 
-Olas sub pools are deployed by Olas admins for topics that require regular reporting. Active donors participate in funding competitions that occur in these sub pools.&#x20;
+Olas sub pools are deployed by Olas developers for topics that require regular reporting. Active donors participate in funding competitions that occur in these sub pools.&#x20;
 
 [**Demand-Based Allocation**](subsidy-allocation-mechanism.md)
 
