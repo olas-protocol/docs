@@ -10,6 +10,10 @@ Olas aims to remedy these problems by offering investigators and researchers mec
 
 The following sequence diagram demonstrates how the Olas funding mechanism for news and opinion works:
 
+[Investment Platform](investment-and-funding-competitions.md)
+
+Given up front costs are on a completely different level for this sector compared to news and opinion, contributors will be able to raise money in advance for the research they wish to conduct and can receive this money in advance with investors bearing the risk of non-performance. &#x20;
+
 [Investigative Journalism Pool](../sub-pools.md)&#x20;
 
 Every quarter a certain percentage of the donations of avid readers, high net worth individuals, corporations and governments will be allocated to the Investigative Journalism Pool from the Olas Global Pool by the Olas Foundation.&#x20;
@@ -20,7 +24,7 @@ After the money from the Global Pool is allocated, those papers that have been r
 
 **How it Works**
 
-An investigative journalist or group of scientists with a lead or an idea can seek investment based on a cost estimate for their research via the protocol. These investors will have a share in any profits the journalist or scientist will receive for their work if there are any. The contributor will then conduct their research and publish their work. After publication, a randomised and qualified judging panel will make an assessment on the question, the methodology, quality of statistical analysis, the answer provided etc as well as taking a view on the plausibility of the stated costs. An overall score including the panel's figure for costs will be given. This score and the scores of all the other entrants to the quarterly funding competition will dictate the entrants share of the available money.&#x20;
+An investigative journalist or group of scientists with a lead or an idea can seek investment based on a cost estimate for their research via the protocol. These investors will have a share in any profits the journalist or scientist will receive for their work if there are any. The contributor will then conduct their research and publish their work. After publication, a randomised and qualified judging panel will make an assessment on the question, the methodology, quality of statistical analysis, the answer provided etc as well as taking a view on the plausibility of the stated costs. An overall score including the panel's figure for costs will be given. This score and the scores of all the other entrants to the quarterly funding competition will dictate the entrants share of the available money. This will enable contributors to at least partially repay some of the funding they received. There are other opportunities for investors to see a return on their investment.&#x20;
 
 **Benefits of the Investigative Journalism and Science Funding Mechanism**
 

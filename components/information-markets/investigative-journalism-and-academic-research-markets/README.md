@@ -6,7 +6,7 @@ description: Overview of Olas Investigative Journalism & Academic Research Marke
 
 Olas introduces the Investigative Journalism & Academic Research Markets to redress the undervaluation of journalistic and scientific contributions. Using a blend of **public subsidies**, **prediction markets**, and retrospective public goods funding, Olas aims to fairly reward impactful work. This market revolves around aligning rewards with the societal value of these crucial efforts. It encourages not only funding but also verification, maintaining the integrity of shared information. Participants, including Content Contributors, Investors, Bettors, and Tippers, engage in an inclusive process—from proposing questions to closing the market. This comprehensive framework ensures equitable compensation while prioritizing validation and assessment of societal impact post-resolution, setting new standards for fair recognition of critical research and investigative endeavours.
 
-<figure><img src="../../.gitbook/assets/Investigative Journalism and Academic Research Market.png" alt=""><figcaption><p>Figure 8. Investigative Journalism &#x26; Academic Research Market Overview</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Investigative Journalism and Academic Research Market.png" alt=""><figcaption><p>Figure 8. Investigative Journalism &#x26; Academic Research Market Overview</p></figcaption></figure>
 
 {% hint style="info" %}
 The above diagram incorporates a pivotal '**Above 50% Line**' indicating the **majority** threshold.
