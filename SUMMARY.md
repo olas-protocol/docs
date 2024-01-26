@@ -22,7 +22,7 @@
   * [Subsidy Allocation Mechanism](components/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md)
   * [Quadratic Funding Competitions](components/news-and-opinion-funding-mechanisms/quadratic-funding-competitions.md)
 * [Investigative Journalism & Scientific Research Funding Mechanisms](components/investigative-journalism-and-scientific-research-funding-mechanisms/README.md)
-  * [Investments and Funding Competitions](components/investigative-journalism-and-scientific-research-funding-mechanisms/investments-and-funding-competitions.md)
+  * [Investment and Funding Competitions](components/investigative-journalism-and-scientific-research-funding-mechanisms/investment-and-funding-competitions.md)
 * [Information Markets](components/information-markets/README.md)
   * [Fact Reporting Markets](components/information-markets/fact-reporting-markets.md)
   * [Opinion Markets](components/information-markets/opinion-markets.md)

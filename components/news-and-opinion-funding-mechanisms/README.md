@@ -28,7 +28,7 @@ Olas implements a market-based allocation system to ensure fair and efficient di
 
 A contributor who wants to write on the platform can enter a funding competition in a given sub pool. Active donors can then vote on the proposal and donate money to the sub pool. The amount of money that a donor donates is equal to the square root of the amount that they value the contributor. This means that donors who value the contributor more will donate more money. Contributors will receive a matching donation from the sub pool equivalent to the number the earn according the above formula. If there are insufficient funds allocated to the sub pool by the global matching pool, matched donations will be paid as a percentage of the share of the pool contributors earn on account of the quadratic rules. &#x20;
 
-**Benefits of the Olas Funding Mechanism**
+**Benefits of the News and Opinion Funding Mechanism**
 
 The Olas funding mechanism offers several benefits, including:
 
