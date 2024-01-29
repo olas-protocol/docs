@@ -1,5 +1,5 @@
 ---
-description: 'Opinion Market in OLAS: Leveraging the Surprisingly Popular Algorithm'
+description: Leveraging Bayesian Truth Serum to Reward Correct Contrarians
 ---
 
 # Opinion Markets
