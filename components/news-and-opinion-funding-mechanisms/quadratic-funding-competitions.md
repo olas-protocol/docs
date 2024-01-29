@@ -4,10 +4,6 @@ description: More democratic markets
 
 # Quadratic Funding Competitions
 
-The primary goal of Olas is to make all non-private information free to all. The secondary goal is to remove systemic economic incentives that create conflicts of interest for truthful and accurate information. Subscription and advertising based models are incompatible with these goals. That leaves Olas with only one other possible economic model given how trivial it is to reproduce information: Charity.&#x20;
-
-Charity has been used for centuries to raise money for various projects and causes. It is a tried and tested method for subsidising valuable stuf that markets are not well suited to improving. However, since funds are not subject to competitive market forces - governments often only permit one charity for each cause - they are not regularly very well used. Government spending on public infrastructure and services faces a similar problem. Consequently some have posited it's preferable to subject public goods funding to [private market forces](https://www.brookings.edu/books/private-markets-for-public-goods/) in a hybrid system.  &#x20;
-
 Quadratic funding is a radically new funding mechanism that not only seeks to create private markets for public goods to improve outcomes, but seeks to do so in a way that more accurately reflects broader community preferences than vanilla market mechanisms do. It achieves this by establishing a matching pool for donations to competing projects and by using a formula that gives more weight to the number of people that donate than the amount of money donated when matching individual donations with the pooled funds. In this sense it's akin to a middle ground between democracy (one person, one vote) and markets (one dollar, one vote).&#x20;
 
 Here is a diagram explaining the difference between a theoretical centralised vanilla funding competition and an open quadratic funding competition in the Olas protocol:
