@@ -4,9 +4,9 @@ description: Decentralised Collusion-Resistent Quality Control
 
 # Information Markets Overview
 
-Olas' information quality control mechanisms are designed with 4 assumptions in mind:
+Olas' information quality control mechanisms are designed with a number of observations and assumptions in mind:
 
-1. &#x20;
+1. Information on the internet is subject to numerous undesirable forces. &#x20;
 2. In the absence of hierarchical or credential-based quality control systems, the two proven mechanisms we have for reliably aggregating information in a decentralised setting are **markets** and **reputation**.
 
 

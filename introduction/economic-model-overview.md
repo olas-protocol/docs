@@ -7,7 +7,7 @@ description: Private Markets for Public Goods
 The Olas economic model design is based on five assumptions:
 
 1. Information is one of the rare types of good not particularly well served by _fully_ private markets. This is why the media industry has been struggling for over a decade.&#x20;
-2. Even if private markets could adequately supply it, it's much preferable for it to be subsidised as a public good because the payoff from widespread access to information vastly exceeds the cost of subsidisation.
+2. Even if private markets could adequately supply it, it's a lot more preferable for it to be subsidised as a public good because the payoff from widespread access to information vastly exceeds the cost of subsidisation.
 3. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce accuracy-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
 4. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
 5. Public good subsidies are _much_ more effective when subjected to market forces.
