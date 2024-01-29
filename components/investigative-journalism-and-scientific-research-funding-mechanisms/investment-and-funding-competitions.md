@@ -16,4 +16,4 @@ Here is the chronology of the fund raising process:
 4. Once the research is completed, it'll be given a score and a costs award by a [review market](../information-markets/investigative-journalism-and-academic-research-markets/review-markets.md). This costs award may be lower than the declared budget.&#x20;
 5. At the end of that quarter, the project will receive funding from the Investigative Journalism Funding Pool or the Scientific Research Funding Pool based on its score, its costs award and also the respetive scores and awards of everyone else competing for the quarterly payout.&#x20;
 
-WE NEED A DIAGRAM THAT COVERS POINTS 1, 2 & 3. POINT 4 WILL BE COVERED IN THE INFORMATION MARKETS SECTION SO IGNORE. THEN WE ALSO NEED TO FORMULISE AND MAKE A DIAGRAM OF POINT 5.&#x20;
+WE NEED A DIAGRAM THAT COVERS POINTS 1, 2 & 3. POINT 4 WILL BE COVERED IN THE INFORMATION MARKETS SECTION SO IGNORE. THEN WE ALSO NEED TO FORMALISE AND MAKE A DIAGRAM OF POINT 5.&#x20;
