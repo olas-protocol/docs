@@ -8,7 +8,8 @@ Between the _Olas Global Pool_ are two layers of sub pools. The first consists o
 
 1. News/facts reporting&#x20;
 2. Opinion/Analysis&#x20;
-3. Investigative journalism & scientific research
+3. Investigative journalism&#x20;
+4. Scientific Research
 
 The Olas Foundation will decide each quarter how much the share of global pool funds each of these pools get each quarter based on its analysis of how each pool is serving demand. This is the only centralised governance decision that is ever taken on the protocol meaning the foundation has zero say over which contributors or projects receive the funding. It's merely a general allocation decision that'll have marginal bearing on specific funding outcomes.&#x20;
 

@@ -27,7 +27,7 @@
   * [Fact Reporting Markets](components/information-markets/fact-reporting-markets.md)
   * [Opinion Markets](components/information-markets/opinion-markets.md)
   * [Investigative Journalism & Academic Research Markets](components/information-markets/investigative-journalism-and-academic-research-markets/README.md)
-    * [Judging Panels](components/information-markets/investigative-journalism-and-academic-research-markets/judging-panels.md)
+    * [Review Markets](components/information-markets/investigative-journalism-and-academic-research-markets/review-markets.md)
     * [Replication Markets](components/information-markets/investigative-journalism-and-academic-research-markets/replication-markets.md)
 * [Attestations](components/attestations/README.md)
   * [Citation Systems](components/attestations/citation-systems.md)
