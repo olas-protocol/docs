@@ -4,7 +4,7 @@ description: The organs of the protocol
 
 # Sub Pools
 
-Between the _Olas Global Pool_ are two layers of sub pools. The first consists of just three pools that represent the funding available to the three types of [information markets](information-markets/) on the protocol:
+Between the _Olas Global Pool_ are two layers of sub pools. The first consists of just three pools that represent the funding available to the three types of [information markets](../introduction/information-markets-overview.md) on the protocol:
 
 1. News/facts reporting&#x20;
 2. Opinion/Analysis&#x20;
