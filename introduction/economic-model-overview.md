@@ -6,13 +6,13 @@ description: Private Markets for Public Goods
 
 The Olas economic model design is based on five assumptions:
 
-1. Information is one of the rare types of good not particularly well served by _fully_ private markets. This is why the media industry has been struggling for over a decade.&#x20;
-2. Even if private markets could adequately supply it, it's a lot more preferable for it to be subsidised as a public good because the payoff from widespread access to information vastly exceeds the cost of subsidisation.
-3. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce accuracy-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
-4. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
-5. Public good subsidies are _much_ more effective when subjected to market forces.
+1. Information in the digital age is one of the rare types of good not particularly well served by _fully_ private markets. This is why the media industry has been struggling for over a decade.&#x20;
+   1. Even if private markets could adequately supply it, it's a lot more preferable for it to be subsidised as a public good because unlike most other goods the payoff from widespread access to information vastly exceeds the cost of total subsidisation.
+2. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce truth-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
+3. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
+4. Public good subsidies are _much_ more effective when subjected to market forces.
 
-### Information is a Natural Public Good.&#x20;
+### Information is a Natural Public Good&#x20;
 
 Information is easy to propagate and consequently difficult to suppress. This is especially the case in the modern digital world when reproducing information is a trivial task that involves little skill and know-how. Consequently information is best viewed as a natural public good. Private business models have responded to this reality by either offering information for free and monetising it with advertising or increasingly by using subscriptions to gate access to it.&#x20;
 
@@ -20,7 +20,7 @@ Advertising has known deleterious effects on the quality of information output i
 
 Subscriptions attempt to create artificial scarcity in digital information by gating access to their content. However  the subscriber base of these news and science platforms tends to be a narrow section of society. To best cater to this market, the suppliers of information are selected from this section of society too. A situation has been created where groupthink is endemic and there is often ignorance of the perspective of large parts of the rest of society. These too greatly affects the quality of information output if not as severely as advertising does.&#x20;
 
-Even if undesirable, we don't view subscriptions as a viable model in the impending decentralised internet (web 3). There are already archive websites the younger more tech savvy generation use to circumvent paywalls and coordinating to share subscriptions, articles and podcasts will become even more trivial in web 3. Combatting copyright infringments will become next too impossible given the difficulties in censoring decentralised networks.&#x20;
+Even if undesirable, we don't view subscriptions as a viable model in the impending decentralised internet (web 3). There are already archive websites the younger more tech savvy generation use to circumvent paywalls and coordinating to share subscriptions, articles and podcasts will become even more trivial in web 3. Combatting copyright infringments will become near impossible given the difficulties in censoring decentralised networks.&#x20;
 
 _For a much more in-depth discussion on this, refer to Olas intro video 1._ &#x20;
 

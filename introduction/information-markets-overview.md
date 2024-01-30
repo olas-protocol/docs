@@ -4,20 +4,48 @@ description: Decentralised Collusion-Resistent Quality Control
 
 # Information Markets Overview
 
-Olas' information quality control mechanisms are designed with a number of observations and assumptions in mind:
+Olas' information quality control mechanisms are designed with four assumptions in mind:
 
-1. Information on the internet is subject to numerous undesirable forces. &#x20;
-2. In the absence of hierarchical or credential-based quality control systems, the two proven mechanisms we have for reliably aggregating information in a decentralised setting are **markets** and **reputation**.
+1. Information production today is subject to numerous undesirable forces. &#x20;
+2. The way to minimise these forces is to not only remove human hierarchies from the administration of platforms - as discussed in the previous section - but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
+3. Markets are an incredibly effective tool but their efficacy is dependent on them being designed with the specific problem that's to be solved in mind. &#x20;
+4. The great weakness of open systems is their vulnerability to collusion.&#x20;
+
+### Poor Incentives Produce Bad Outcomes
+
+Private ownership - economic interests and ideological interests
+
+Even without private ownership you have gatekeeping eg in science for personal economic and ideological reasons
+
+Demand problem: Clicks and subs (fashion) in media, need to find a breakthrough in science - falsified data to produce positive outcomes
+
+Consequently most stuff we read in newspapers turns out to be false. Large groups of society don't understand eachother. Replication crisis in science.&#x20;
+
+### Open Quality Control Mechanisms
+
+Talk about markets and reputation generally
+
+### Olas Market Designs
+
+Why are news/facts, opinion and science markets designed differenty? What are the challenges, how do our mechanism designs meet them?&#x20;
+
+### Anti-Collusion Mechanisms
+
+Talk about steps we've taken in various markets to prevent collusion
 
 
 
 
 
-Since Olas is a completely open platform, there is no hierarchy that can dictate outcomes. In the absence of hierarchical or credential-based quality control systems, the two proven mechanisms we have for reliably aggregating information in a decentralised setting are **markets** and **reputation**. Olas leverages both of these mechanisms in tandem to provide an alternative to **centralised** information quality control protocols such as **editorial** and **peer review**.
 
-### Evolution of Information Dissemination & Verification
 
-The information dissemination and verification landscape has undergone a profound transformation, propelled by rapid technological advancements. Initially, information dissemination was predominantly achieved through print media, radio, and television. The verification process was centralized, with editors and experts playing gatekeeper roles. However, this approach had limited reach, slower dissemination, and propagated potential biases due to centralized control.
+
+
+
+
+
+
+The information dissemination and verification landscape has undergone a profound transformation, propelled by rapid technological advancements. Initially, information dissemination was predominantly achieved through print media, radio, and television. The verification of information was centralised, with editors and experts playing gatekeeper roles.&#x20;
 
 The adoption of the internet marked a paradigm shift, democratizing information access and creation. Online news portals, blogs, and forums emerged, enabling wider reach and faster dissemination. Consequently, traditional gatekeeping roles weakened, leading to challenges in controlling information quality and authenticity.
 
@@ -43,7 +71,7 @@ Another significant benefit of decentralized markets is their enhanced accessibi
 
 In summary, decentralized information markets leverage collective intelligence and blockchain technology to ensure transparency, accuracy, and fairness. These markets empower a wide array of participants to engage in fact-checking and information verification, using the crowd's wisdom for more accurate and nuanced information. They are agile, adaptable, and inclusive, promoting diverse perspectives and maintaining clear accountability. This approach enhances the quality and transparency of information dissemination, making these markets a more reliable, transparent, and equitable ecosystem for sharing, validating, and consuming information. In the context of journalism, decentralized markets can revolutionize fact-checking and news dissemination, enabling a more reliable and unbiased news ecosystem. In academia, these markets could offer better ways to peer-review and validate research, moving beyond traditional, often slow and opaque, review processes.
 
-### Olas Information Market Mechanisms
+### Olas Information Market Mechanisms Summary
 
 1. **Fact Reporting Market**: Ensuring Accuracy & Accountability
    * This market is focused on verifying the accuracy and integrity of news and articles. It features two main roles: **Fact Checkers**, who scrutinize articles to identify inaccuracies, and **Judges,** who evaluate these findings for validity.
