@@ -37,6 +37,7 @@
   * [Impact of Reputation Score By Role](components/reputation-systems/impact-of-reputation-score-by-role.md)
 * [Tipping System](components/tipping-system.md)
 * [Tagging System](components/tagging-system.md)
+* [Digital Assets](components/digital-assets.md)
 
 ## Olas Token
 
