@@ -4,12 +4,13 @@ description: Decentralised Collusion-Resistant Quality Control
 
 # Information Markets Overview
 
-Olas' information market-based quality control mechanisms are designed with four assumptions in mind:
+Olas' information market-based quality control mechanisms are designed with five assumptions in mind:
 
 1. Information production today is subject to numerous undesirable incentives. &#x20;
-2. The way to minimise these forces is to not only remove human hierarchies from the administration of platforms - as discussed in the previous section - but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
+2. The way to minimise these incentives is to not only remove human hierarchies from the administration of platforms - as discussed in the previous section - but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
 3. Markets are an incredibly effective tool but their efficacy is dependent on them being designed with the specific problem that's to be solved in mind. Otherwise the incentives involved may be sub-optimal.  &#x20;
-4. The great weakness of open systems is their vulnerability to collusion. Open systems vulnerable to collusion risk devolving into a system just like the one they want to replace.&#x20;
+4. Prediction markets, although evidently a powerful tool with great potential, have generally failed to gain mass adoption outside of sports and to a lesser extent politics. Some of the reason for this is regulation, but another major factor, in our view, is that they require subsidies to entice bettors.  &#x20;
+5. The great weakness of open systems is their vulnerability to collusion. Open systems vulnerable to collusion risk devolving into a system just like the one they wish to replace.&#x20;
 
 ### Poor Incentives Produce Bad Outcomes
 
@@ -31,11 +32,13 @@ Thus far, aside from markets, the only other effective quality control tool huma
 
 Olas aims to harness both markets and reputation in tandem to produce high quality outcomes. Markets will take a view on the quality of a contributor's output and a reputation score will keep track of their historical performance in each of these markets so that prospective donors have excellent insight into who is most deserving of any donations they are willing to make to support the production of quality information.&#x20;
 
+However, each sector of information in Olas brings different challenges. The reporting of news generally involves reporting information that is publicly available and thus doesn't require many market participants to verify its accuracy once we have a system for presenting.....&#x20;
+
+### Subsidies
+
 ### Anti-Collusion Mechanisms
 
 Talk about steps we've taken in various markets to prevent collusion
-
-
 
 
 

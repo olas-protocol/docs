@@ -9,7 +9,7 @@ The Olas economic model design is based on five assumptions:
 1. Information in the digital age is one of the rare types of good not particularly well served by _fully_ private markets. This is why the media industry has been struggling for over a decade.&#x20;
 2. Even if private markets could adequately supply it, it's much more preferable for it to be subsidised as a public good because unlike most other goods the payoff from widespread access to information vastly exceeds the cost of total subsidisation.
 3. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce truth-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
-4. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
+4. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that will enable single click micropayments.&#x20;
 5. Public good subsidies are _much_ more effective when subjected to market forces.
 
 ### Information is a Natural Public Good&#x20;
@@ -60,9 +60,9 @@ The beauty of this reality is that public goods funding on a system like Olas ca
 
 ## Economic Model Summary
 
-1. Development of the decentralised platform will be funded by tokenisation. It will have a native currency called Olas. A small percentage of each Olas transaction will be burned to reduce supply, making Olas an attractive investment if the platform is popular.
-2. The supply of information will also be initially subsidised by currency issuance but then via donations after a few years. Donations can be made through funding competitions to pre-fund the work of contributors and can also come after work has been published in the form of tips. There will be no paywall. The information is free to all and donation is a choice.&#x20;
+1. Development of the decentralised platform will be funded by tokenisation. It will have a native currency called Olas. A small percentage of each transaction on the platform will be burned to reduce supply, making Olas an attractive investment if the platform is popular.
+2. The supply of information will also be initially subsidised by currency issuance but then via donations after a few years. Donations can be made through funding competitions to pre-fund the work of contributors and can also come after work has been published in the form of tips. There will be no paywall or advertising. The information is free to all and donation is a choice.&#x20;
 3. All information will be subject to market forces that will provide a score on its quality/accuracy. Market designs are specifically tailored to the type of information they're adjuticating on. Payouts are entirely dependent on performance in these markets.&#x20;
-4. A reputation score will act as a collective memory of a contributor's performance in the markets.&#x20;
+4. A reputation score will keep track of a contributor's past performance in the markets. This score will in turn inform donors participating in future fundraising rounds.&#x20;
 5. Money returned to the system by below par work will be re-used in future funding competitions.&#x20;
 

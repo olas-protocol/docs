@@ -3,6 +3,7 @@
 * [Introduction](README.md)
   * [Economic Model Overview](introduction/economic-model-overview.md)
   * [Information Markets Overview](introduction/information-markets-overview.md)
+  * [Stablecoin Overview](introduction/stablecoin-overview.md)
 
 ## Participants
 
@@ -29,6 +30,7 @@
   * [Investigative Journalism & Academic Research Markets](components/information-markets/investigative-journalism-and-academic-research-markets/README.md)
     * [Review Markets](components/information-markets/investigative-journalism-and-academic-research-markets/review-markets.md)
     * [Replication Markets](components/information-markets/investigative-journalism-and-academic-research-markets/replication-markets.md)
+* [Stablecoin](components/stablecoin.md)
 * [Attestations](components/attestations/README.md)
   * [Citation Systems](components/attestations/citation-systems.md)
 * [Reputation Systems](components/reputation-systems/README.md)
