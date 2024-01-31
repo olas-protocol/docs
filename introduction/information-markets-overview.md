@@ -1,33 +1,35 @@
 ---
-description: Decentralised Collusion-Resistent Quality Control
+description: Decentralised Collusion-Resistant Quality Control
 ---
 
 # Information Markets Overview
 
-Olas' information quality control mechanisms are designed with four assumptions in mind:
+Olas' information market-based quality control mechanisms are designed with four assumptions in mind:
 
-1. Information production today is subject to numerous undesirable forces. &#x20;
+1. Information production today is subject to numerous undesirable incentives. &#x20;
 2. The way to minimise these forces is to not only remove human hierarchies from the administration of platforms - as discussed in the previous section - but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
-3. Markets are an incredibly effective tool but their efficacy is dependent on them being designed with the specific problem that's to be solved in mind. &#x20;
-4. The great weakness of open systems is their vulnerability to collusion.&#x20;
+3. Markets are an incredibly effective tool but their efficacy is dependent on them being designed with the specific problem that's to be solved in mind. Otherwise the incentives involved may be sub-optimal.  &#x20;
+4. The great weakness of open systems is their vulnerability to collusion. Open systems vulnerable to collusion risk devolving into a system just like the one they want to replace.&#x20;
 
 ### Poor Incentives Produce Bad Outcomes
 
-Private ownership - economic interests and ideological interests
+As discussed in the previous section private ownership of information platforms has deleterious effects on information quality. Newspaper owners shape the information that is provided on their platforms via an editorial direction. These owners generally have economic incentives that often run contrary to publishing the truth on certain matters. Further, in the internet age, the requirement to get a click or publish articles agreeable to one's subscriber base introduces incentives that also often run contrary to writing the truth.&#x20;
 
-Even without private ownership you have gatekeeping eg in science for personal economic and ideological reasons
+In the field of science, journals are similarly pressured to publish new and exciting breakthroughs. Further, those with influence over the peer review process also have economic interests that can lead them to influence that process in accordance with those interests.&#x20;
 
-Demand problem: Clicks and subs (fashion) in media, need to find a breakthrough in science - falsified data to produce positive outcomes
+These incentives have a very noticeable effect. Depending on the country, 40-60% of news articles contain factual inaccuracies. This is far too high to be completely accounted for by honest mistakes. In the field of science there is a replication crisis. Over 85% of the findings in scientific papers turn out to be false. There have also been numerous instances of corruption of the peer review process resulting in papers with findings that are uncomfortable for prevailing interests and ideologies being published.&#x20;
 
-Consequently most stuff we read in newspapers turns out to be false. Large groups of society don't understand eachother. Replication crisis in science.&#x20;
+What is needed therefore, is not only an ownerless platform as suggested in the previous section, but open non-hierarchical systems of quality control that don't grant positions of power that can be corrupted to anyone.&#x20;
 
 ### Open Quality Control Mechanisms
 
-Talk about markets and reputation generally
+Markets are the most effective tool humanity has for aggregating information. The secret to their success is best described by the "Skin in the Game" thesis. There is no substitute for the prospect of being rewarded for being right and conversely being punished for being wrong for focusing one's mind. As such well-functioning market can be viewed as a truth telling machine that encompasses the views of numerous people with money on the line. There have been numerous studies that have shown prediction markets to be better at predicting outcomes than subject matter experts that don't have money on the line.&#x20;
+
+Thus far, aside from markets, the only other effective quality control tool humanity has is an open context is a reputation system. A reputation score is a shared memory of a person or institution's performance at a certain activity. This shared memory is very useful to prospective customers. Reputation systems thus work on the basis of similar incentives to markets.  The only difference is that changes to a reputation score effects the holder's future earnings whereas changes in the price of a market position affects current profitability. A positive update to a reputation score is likely to result in increased business in the future whereas a negative update normally results in less custom.   &#x20;
 
 ### Olas Market Designs
 
-Why are news/facts, opinion and science markets designed differenty? What are the challenges, how do our mechanism designs meet them?&#x20;
+Olas aims to harness both markets and reputation in tandem to produce high quality outcomes. Markets will take a view on the quality of a contributor's output and a reputation score will keep track of their historical performance in each of these markets so that prospective donors have excellent insight into who is most deserving of any donations they are willing to make to support the production of quality information.&#x20;
 
 ### Anti-Collusion Mechanisms
 
@@ -38,38 +40,6 @@ Talk about steps we've taken in various markets to prevent collusion
 
 
 
-
-
-
-
-
-
-
-The information dissemination and verification landscape has undergone a profound transformation, propelled by rapid technological advancements. Initially, information dissemination was predominantly achieved through print media, radio, and television. The verification of information was centralised, with editors and experts playing gatekeeper roles.&#x20;
-
-The adoption of the internet marked a paradigm shift, democratizing information access and creation. Online news portals, blogs, and forums emerged, enabling wider reach and faster dissemination. Consequently, traditional gatekeeping roles weakened, leading to challenges in controlling information quality and authenticity.
-
-The explosion of social media platforms revolutionized how information is shared and consumed, emphasizing user-generated content. Information now spreads rapidly, but this often occurs in echo chambers, exacerbating misinformation and polarization. Platforms like Wikipedia and other open fact-checking initiatives emerged that rely on collective intelligence for verification but with varying levels of effectiveness.
-
-### The Need for a New Approach
-
-Traditional methods of controlling information quality face significant challenges and inherent biases, mainly due to their centralized nature. Editorial bias is a common issue, where the viewpoints or information presented can be influenced by the preferences of those in power, such as editorial boards or peer review panels. This bias can also stem from institutional influences, where political or commercial interests might skew information.
-
-Another significant challenge is the creation of echo chambers due to selective reporting, where audiences are only exposed to information that reinforces their existing beliefs. This lack of diverse viewpoints is further exacerbated by the underrepresentation of certain groups, leading to a narrowed perspective in mainstream media and academia. These traditional models also struggle with adapting quickly to new information. Their verification and updating processes can be slow and inflexible, leading to delays in correcting misinformation.&#x20;
-
-Quality and reliability of information are also major concerns. Due to time and resource constraints, fact-checking is often inadequate, which can lead to the dissemination of inaccurate information. Moreover, the decision-making processes in these models are often opaque, lack transparency, and make it difficult for the public to understand how information is selected and edited. Additionally, the absence of clear accountability obscures who is responsible for disseminating false or biased information.
-
-### Decentralized Information Markets: A New Paradigm for Information Dissemination and Quality Controls
-
-In an era where information is as valuable as currency, the way we disseminate, verify, and value information is critical. Decentralized information markets have the potential to revolutionize this domain, utilizing smart contracts and decentralized economic systems to reshape how we handle and authenticate information. The primary goal of these markets is to enhance the quality and transparency of information flow. This is achieved by employing collective intelligence for the validation and verification of content, thus improving its accuracy and reliability. Unlike traditional models, reliant on centralized entities like editorial boards, decentralized markets leverage a distributed network of participants. This peer-to-peer framework not only democratizes the information ecosystem, allowing for direct contribution, verification, and consumption of content but also distributes decision-making to diminish bias and prevent centralized control.&#x20;
-
-Decentralized markets typically rely on incentivizing independent contributors through token-based rewards. Olas tokens can be awarded for high-quality contributions like fact-checking, content creation, and judging, thereby aligning individual incentives with the collective goal of accurate information dissemination. By realigning incentives, this system not only counters the sensationalism and agenda-pushing often seen in traditional systems but also promotes a richer quality of information by rewarding participants for accuracy and depth of research.
-
-Decentralized information markets also differ significantly from traditional systems due to their approach to control and transparency. In contrast to the often opaque processes of traditional systems, decentralized information markets utilize blockchain technology for clear, auditable records of every decision and transaction, thereby encouraging responsible contributions. The agility and adaptability of these markets also allow for quick integration and dissemination of new information ensuring timely updates and corrections, a stark difference from the slower, more rigid traditional models.&#x20;
-
-Another significant benefit of decentralized markets is their enhanced accessibility. Decentralized markets democratize information dissemination, allowing equal participation opportunities for diverse voices, unlike traditional models that often have barriers to entry and favour established voices. This diversity helps counter biases and echo chambers that are common in traditional models. In decentralized markets, the processes and criteria for information validation are clear and accessible to all, fostering a better understanding and trust among users.   Moreover, these markets are resilient to manipulation, as influencing them requires swaying a large network of independent information validators. Traditional systems, on the other hand, are often more susceptible to external pressures and manipulation.
-
-In summary, decentralized information markets leverage collective intelligence and blockchain technology to ensure transparency, accuracy, and fairness. These markets empower a wide array of participants to engage in fact-checking and information verification, using the crowd's wisdom for more accurate and nuanced information. They are agile, adaptable, and inclusive, promoting diverse perspectives and maintaining clear accountability. This approach enhances the quality and transparency of information dissemination, making these markets a more reliable, transparent, and equitable ecosystem for sharing, validating, and consuming information. In the context of journalism, decentralized markets can revolutionize fact-checking and news dissemination, enabling a more reliable and unbiased news ecosystem. In academia, these markets could offer better ways to peer-review and validate research, moving beyond traditional, often slow and opaque, review processes.
 
 ### Olas Information Market Mechanisms Summary
 

@@ -7,10 +7,10 @@ description: Private Markets for Public Goods
 The Olas economic model design is based on five assumptions:
 
 1. Information in the digital age is one of the rare types of good not particularly well served by _fully_ private markets. This is why the media industry has been struggling for over a decade.&#x20;
-   1. Even if private markets could adequately supply it, it's a lot more preferable for it to be subsidised as a public good because unlike most other goods the payoff from widespread access to information vastly exceeds the cost of total subsidisation.
-2. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce truth-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
-3. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
-4. Public good subsidies are _much_ more effective when subjected to market forces.
+2. Even if private markets could adequately supply it, it's much more preferable for it to be subsidised as a public good because unlike most other goods the payoff from widespread access to information vastly exceeds the cost of total subsidisation.
+3. Information platforms should not be governed by human hierarchies because those hierarchies will inevitably introduce truth-destroying politics and biases into the equation even if the platform is non-profit.&#x20;
+4. Charity will be a viable economic model in the coming decentralised internet with native payments infrastructure that enables single click micropayments.&#x20;
+5. Public good subsidies are _much_ more effective when subjected to market forces.
 
 ### Information is a Natural Public Good&#x20;
 
@@ -34,9 +34,9 @@ _For a much more in-depth discussion on this, refer to Olas intro video 2._  &#x
 
 When information is supplied by for-profit entities, there is an unavoidable conflict of interest between making money and supplying accurate and high quality information. Another issue is that owners often have other economic interests that are furthered using the platform at the expense of the accuracy of the output.&#x20;
 
-Even absent economic interests, ideology is ever present in human groups. When there are hierarchical structures it is inevitable people will use them to further their ideas at the expense of competing ones. This is damaging to the marketplace of ideas that brings us increasingly better information.&#x20;
+Even absent economic interests, ideology is ever present in human groups. When there are hierarchical structures it is inevitable people will use them to further their ideas at the expense of competing ones. This is damaging to the marketplace of ideas that brings us incrementally better information.&#x20;
 
-What is needed is a truly ownerless non-hierarchical platform to avoid these issues. Fortunately, the advent of blockchain technology enables such a thing. Developers can build applications and release them on censorship resistant decentralised computing networks. The decentralised applications (dApps) persist beyond the control of any single administrator, including if designed correctly, their creators. This paradigm brings enormous challenges in software and mechanism design but the possibility now exists none-the-less.
+What is needed is a truly ownerless non-hierarchical platform to avoid these issues. Fortunately, the advent of blockchain technology enables such a thing. Developers can build applications and release them on censorship-resistant decentralised computing networks. The decentralised applications (dApps) persist beyond the control of any single administrator, including if designed correctly, their creators. This paradigm brings enormous challenges in software and mechanism design but the possibility now exists none-the-less.
 
 Another way blockchains have changed the game is via tokenisation. In order for dApps to be trusted their code must be open source and examinable by all given their is nobody at the helm and consequently no recourse if anything goes wrong.  Since open source code is a public good free for anyone to replicate, there has rarely been economic incentive to create this type of software. For that reason the internet is dominate by proprietary platforms with open source relegated to the domain of hobbyists and ideologues.&#x20;
 
