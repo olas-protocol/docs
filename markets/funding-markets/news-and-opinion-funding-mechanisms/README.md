@@ -14,19 +14,19 @@ Funds will be allocated across topics and writers using credibly neutral mechani
 
 The following sequence diagram demonstrates how the Olas funding mechanism for news and opinion works:
 
-<figure><img src="../../.gitbook/assets/Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
 
-[News and Opinion Pool](../sub-pools.md)
+[News and Opinion Sector Pool](../../../components/funding-pools.md#sector-pools)
 
 Every quarter a certain percentage of the donations of avid readers, high net worth individuals, corporations and governments will be allocated to the News and Opinion Pool by the Olas Foundation.&#x20;
 
-[News and Opinion Sub Pools](../sub-pools.md)
+[News and Opinion Sub Pools](broken-reference)
 
 Olas sub pools are deployed by Olas developers for topics that require regular reporting. Active donors participate in funding competitions that occur in these sub pools.&#x20;
 
-[**Demand-Based Allocation**](subsidy-allocation-mechanism.md)
+[**Demand-Based Allocation**](broken-reference)
 
-Olas implements a market-based allocation system to ensure fair and efficient distribution of funds to topics and journalists that deserve them most[.](subsidy-allocation-mechanism.md) This system evaluates the level of interest in articles in each sub-pool based on a set of metrics that reflect this interest.     &#x20;
+Olas implements a market-based allocation system to ensure fair and efficient distribution of funds to topics and journalists that deserve them most[.](broken-reference) This system evaluates the level of interest in articles in each sub-pool based on a set of metrics that reflect this interest.     &#x20;
 
 **How it Works**
 

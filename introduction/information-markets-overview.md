@@ -56,22 +56,22 @@ It is imperative therefore that all markets, and therefore the reputation system
 
 ### Olas Information Market Mechanisms Summary
 
-Each market is designed both with its specific requirements and challenges in mind, and with collusion-resistence in mind at every stage.&#x20;
+Each market is designed both with its specific requirements and challenges in mind, and with collusion-resistance in mind at every stage.&#x20;
 
 1. **News/Fact Reporting Market**
-   * This market features two main roles: **Fact Checkers**, who scrutinize articles to identify inaccuracies, and **Judges,** who evaluate these findings for validity.
+   * This market features two main roles: **Fact Checkers**, who scrutinise articles to identify inaccuracies, and **Judges,** who evaluate these findings for validity.
    * The process starts with the submission of an article accompanied by a stake by a **content contributor,** followed by an open phase for fact-checking where anyone can submit potential inaccuracies.&#x20;
    * These inaccuracies are then verified by a partially randomly selected panel of judges with self-declared but proven knowledge of the subject matter in question. There are also some open seats that are open to fact checkers with a high reputation score. No two judges will be permitted to sit on the same panel together more than a TBH amount.
    * The work of the fact checkers and judges is subsidised by the contributor's stake and Olas.&#x20;
    * Payouts for contributors are dependent on their score. Payouts for fact checkers are dependent on the judge's views of the issue(s) they raised. Payouts for individual judges are dependent on their proximity to the median judge.&#x20;
 2. **Opinion Market**
-   * Opinion markets will work through tipping. Every time somone tips an article they will need to fill out a two-question questionnaire. The format of this questionnaire is known as Bayesian Truth Serum and is specially designed to entice people that believe they hold a correct but unpopular opinion into the market.&#x20;
+   * Opinion markets will work through tipping. Every time someone tips an article they will need to fill out a two-question questionnaire. The format of this questionnaire is known as Bayesian Truth Serum and is specially designed to entice people that believe they hold a correct but unpopular opinion into the market.&#x20;
    * The dual-question mechanism asks participants to both take a view of the opinion piece in question and predict the majority's response to the same question. The BTS algorithm then identifies the "surprisingly popular" answer, which is more popular than participants predicted, indicating it may reflect important insights from the crowd.
-   * The algorithm both incentivises correct contrarians to participate via the dual-question mechanism and through subsidies from tippers that tip because they like the opinion in question - analagous to bettors in sports.&#x20;
+   * The algorithm both incentivises correct contrarians to participate via the dual-question mechanism and through subsidies from tippers that tip because they like the opinion in question - analogous to bettors in sports.&#x20;
    * Collusion will be minimised by asking tippers to have a unique Olas identity and to make a minimum tip/bet. Further a minimum anti-collusion infrastructure (MACI) protocol will be implemented. There will also be a limit to the amount of tips/bets on opinion pieces an identity can make.
    * Payouts to contributors and bettors will be dependent on the BTS betting result.&#x20;
 3. **Investigative Journalism and Scientific Research Markets**
-   * These sectors employ a dual market system. &#x20;
+   * These sectors employ a tri-market system. &#x20;
    * Prior to entering a market journalists and scientists will be able raise money from investors as well as donors. The other sectors are limited to donations. Profits will be shared with investors.
    * The first market, which is identical to the News/Fact reporting market, with fact checking and judgment layers, takes a view on the methodology and statistical analysis and a (preliminary) view on the outcome of the study. This ensures good research will receive funding regardless of the findings.&#x20;
    * The second market is entered into if contributors believe they've made a big breakthrough that will be verified by others. They can start a 'replication market' whereby anyone can bet on their result being replicated. Other teams will attempt to replicate the findings for a share of the rewards and a fact checking and judging panel consisting of completely different members to the first one, will judge on the replication attempt findings.&#x20;

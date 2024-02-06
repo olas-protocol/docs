@@ -6,11 +6,11 @@ description: >-
 
 # Subsidy Allocation Mechanism
 
-Although Olas employs [quadratic funding ](./)competitions to distribute funds among contributors writing on the same topics, the platform needs another mechanism to allocate passively donated funds to news topics in the first place before those competitions can take place. This mechanism is dedicated to news reporting and opinions as investigative journalism/academic research have a unique fundraising mechanism.&#x20;
+Although Olas employs [quadratic funding ](broken-reference)competitions to distribute funds among contributors writing on the same topics, the platform needs another mechanism to allocate passively donated funds to news topics in the first place before those competitions can take place. This mechanism is dedicated to news reporting and opinions as investigative journalism/academic research have a unique fundraising mechanism.&#x20;
 
 ### **Funding Sources and Allocation**
 
-At the heart of Olas' funding ecosystem lies the Olas [Global Pool](../global-pool.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
+At the heart of Olas' funding ecosystem lies the Olas [Global Pool](../../../components/funding-pools.md), a pool of funds contributed by [passive donors](broken-reference), such as high-net-worth individuals and government entities. These donors are committed to supporting journalism in a general sense, ensuring that financial resources are available to support diverse and high-quality reporting.
 
 Since the Global Pool isn't controlled by any single entity, funds must be allocated by it using decentralised mechanisms. The challenge with using such mechanisms is to design them so they cannot be gamed by colluding agents. Olas has been designed with this in mind so that funds are allocated in a transparent, accountable and credibly neutral manner.&#x20;
 
@@ -20,14 +20,14 @@ To support diverse reporting, The Olas Foundation will establish specialised sub
 
 ### **Ranking Algorithm for Sub Pool Allocation**
 
-As is the case with contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations) 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on [quadratic funding](quadratic-funding-competitions.md) refer to following sections. This algorithm considers various factors:
+As is the case with contributor competitions, Olas uses a quadratic formula to distribute subsidies to sub pools based on the number of people plus the level of economic activity occuring in each sub pool. These measurements are taken from both methods of subsidisation: 1. Public Goods Funding (donations) 2. Retroactive Public Goods Funding (tips). The reason quadratic rules are used is to take a better measurement of the wider community. For a deeper discussion on [quadratic funding](broken-reference) refer to following sections. This algorithm considers various factors:
 
 1. Number of active donors that participated in previous funding rounds in each sub-pool.
 2. Total donations received by each sub pool.
 3. Number of tippers in each sub pool.
 4. Total tips received by each sub pool.
 
-<figure><img src="../../.gitbook/assets/Subsidy Allocation Mechanism (1).png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Subsidy Allocation Mechanism (1).png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
 
 ### **Funds Distribution**
 

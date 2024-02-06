@@ -10,15 +10,15 @@ Olas aims to remedy these problems by offering investigators and researchers mec
 
 The following sequence diagram demonstrates how the Olas funding mechanism for news and opinion works:
 
-[Investment Platform](investment-and-funding-competitions.md)
+[Investment Platform](broken-reference)
 
 Given up front costs are on a completely different level for this sector compared to news and opinion, contributors will be able to raise money in advance for the research they wish to conduct and can receive this money in advance with investors bearing the risk of non-performance. &#x20;
 
-[Investigative Journalism Pool](../sub-pools.md)&#x20;
+[Investigative Journalism Pool](broken-reference)&#x20;
 
 Every quarter a certain percentage of the donations of avid readers, high net worth individuals, corporations and governments will be allocated to the Investigative Journalism Pool from the Olas Global Pool by the Olas Foundation.&#x20;
 
-[Quarterly Funding Competitions](investment-and-funding-competitions.md)
+[Quarterly Funding Competitions](broken-reference)
 
 After the money from the Global Pool is allocated, those papers that have been reviewed by a judging panel will be allocated a share relative to their score and the cost of their research.&#x20;
 

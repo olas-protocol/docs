@@ -2,7 +2,7 @@
 description: Market-based quality control
 ---
 
-# Information Markets
+# Quality Control Markets
 
 A high-level overview of Olas markets:
 

@@ -17,19 +17,7 @@
 
 * [Identity Layer](components/identity-layer.md)
 * [Initial Monetary Subsidy](components/initial-monetary-subsidy.md)
-* [Global Pool](components/global-pool.md)
-* [Sub Pools](components/sub-pools.md)
-* [News & Opinion Funding Mechanisms](components/news-and-opinion-funding-mechanisms/README.md)
-  * [Subsidy Allocation Mechanism](components/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md)
-  * [Quadratic Funding Competitions](components/news-and-opinion-funding-mechanisms/quadratic-funding-competitions.md)
-* [Investigative Journalism & Scientific Research Funding Mechanisms](components/investigative-journalism-and-scientific-research-funding-mechanisms/README.md)
-  * [Investment and Funding Competitions](components/investigative-journalism-and-scientific-research-funding-mechanisms/investment-and-funding-competitions.md)
-* [Information Markets](components/information-markets/README.md)
-  * [Fact Reporting Markets](components/information-markets/fact-reporting-markets.md)
-  * [Opinion Markets](components/information-markets/opinion-markets.md)
-  * [Investigative Journalism & Academic Research Markets](components/information-markets/investigative-journalism-and-academic-research-markets/README.md)
-    * [Review Markets](components/information-markets/investigative-journalism-and-academic-research-markets/review-markets.md)
-    * [Replication Markets](components/information-markets/investigative-journalism-and-academic-research-markets/replication-markets.md)
+* [Funding Pools](components/funding-pools.md)
 * [Stablecoin](components/stablecoin.md)
 * [Attestations](components/attestations/README.md)
   * [Citation Systems](components/attestations/citation-systems.md)
@@ -37,13 +25,24 @@
   * [Reputation System Architecture](components/reputation-systems/reputation-system-architecture.md)
   * [Reputation Algorithms](components/reputation-systems/reputation-algorithms.md)
   * [Impact of Reputation Score By Role](components/reputation-systems/impact-of-reputation-score-by-role.md)
-* [Tipping System](components/tipping-system.md)
 * [Tagging System](components/tagging-system.md)
 * [Digital Assets](components/digital-assets.md)
 
-## Olas Token
+## Markets
 
-* [Tokenomics](olas-token/tokenomics.md)
+* [Funding Markets](markets/funding-markets/README.md)
+  * [News & Opinion Funding Mechanisms](markets/funding-markets/news-and-opinion-funding-mechanisms/README.md)
+    * [Subsidy Allocation Mechanism](markets/funding-markets/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md)
+    * [Quadratic Funding Competitions](markets/funding-markets/news-and-opinion-funding-mechanisms/quadratic-funding-competitions.md)
+  * [Investigative Journalism & Scientific Research Funding Mechanisms](markets/funding-markets/investigative-journalism-and-scientific-research-funding-mechanisms/README.md)
+    * [Investment and Funding Competitions](markets/funding-markets/investigative-journalism-and-scientific-research-funding-mechanisms/investment-and-funding-competitions.md)
+* [Quality Control Markets](markets/quality-control-markets/README.md)
+  * [Fact Reporting Markets](markets/quality-control-markets/fact-reporting-markets.md)
+  * [Opinion Markets](markets/quality-control-markets/opinion-markets.md)
+  * [Investigative Journalism & Academic Research Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/README.md)
+    * [Review Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/review-markets.md)
+    * [Replication Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/replication-markets.md)
+* [Tipping System](markets/tipping-system.md)
 
 ## FAQ
 

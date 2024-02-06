@@ -13,7 +13,7 @@ Donors ensure the economic sustainability of information production in the absen
 #### Donor Classification
 
 * **Active Donors:** These donors are highly influential in the Olas ecosystem as it is they who collectively decide on the allocation of Olas funds. On account of this power, and its potential to be abused, active donors must undergo a **unique humanity proof** verification process. Active donors participate by **directly** donating to specific content contributors they wish to support. Their donations are then matched by the global matching pool which holds the funds contributed by passive donors in funding rounds.
-* **Passive Donors:** These donors contribute directly to the **global matching pool.** As a result, they do not influence where their donated funds end up. Consequently, there is no verification procedure required for them. Their donations serve as a reservoir of funds that are allocated during specific funding rounds using a [**Subsidy Allocation Mechanism**](../components/news-and-opinion-funding-mechanisms/subsidy-allocation-mechanism.md).
+* **Passive Donors:** These donors contribute directly to the **global matching pool.** As a result, they do not influence where their donated funds end up. Consequently, there is no verification procedure required for them. Their donations serve as a reservoir of funds that are allocated during specific funding rounds using a [**Subsidy Allocation Mechanism**](broken-reference).
 
 ## Rights and Responsibilities
 
