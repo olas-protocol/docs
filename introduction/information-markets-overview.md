@@ -75,5 +75,5 @@ Each market is designed both with its specific requirements and challenges in mi
    * Prior to entering a market journalists and scientists will be able raise money from investors as well as donors. The other sectors are limited to donations. Profits will be shared with investors.
    * The first market, which is identical to the News/Fact reporting market, with fact checking and judgment layers, takes a view on the methodology and statistical analysis and a (preliminary) view on the outcome of the study. This ensures good research will receive funding regardless of the findings.&#x20;
    * The second market is entered into if contributors believe they've made a big breakthrough that will be verified by others. They can start a 'replication market' whereby anyone can bet on their result being replicated. Other teams will attempt to replicate the findings for a share of the rewards and a fact checking and judging panel consisting of completely different members to the first one, will judge on the replication attempt findings.&#x20;
-   * Payouts will be dependent on the judgements in both markets.&#x20;
+   * Payouts will be dependent on the judgements in all three markets.&#x20;
 
