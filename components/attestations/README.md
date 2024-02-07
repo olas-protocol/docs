@@ -26,13 +26,16 @@ Attestations provide a structured mechanism for:
 * **Interoperability:**
   * Standardized attestations can be shared across diverse platforms and applications within the Web3 ecosystem, promoting interoperability and a more cohesive editorial management framework.
 
-## Utilization of Attestations in Olas
+## Attestations in Olas
 
 As part of the Olas ecosystem, attestations are used by Content Contributors as a mechanism to verify the authenticity of their work and to acknowledge the use of other authors' content in the formation of their arguments. Specifically, attestations are used for:
 
-* **Royalty Allocation:**
-  * By accurately recording the value that previous authors have created via their writings, attestations can be used in the equitable future distribution of retroactive royalty rewards.
-* **Dispute Resolution:**
-  * When disputes arise, the chain of attestations documenting intellectual contributions provides a robust evidential foundation for resolving conflicts and upholding equitable decisions.
+**Evidence Trail:**
+
+* When a Content Contributor makes a claim, they can attest to the work of others to provide evidence and context to what they are saying.&#x20;
+
+**Royalty Allocation:**
+
+* By accurately recording the value that previous authors have created via their writings, attestations can be used in the equitable future distribution of retroactive royalty rewards.
 
 By leveraging the use of attestations, Olas facilitates a structured, transparent, and equitable editorial management system. This approach to editorial management aims to align the incentives of all stakeholders towards a communal objective of trust and quality.
