@@ -4,18 +4,18 @@ description: Overview of Olas Citation Systems
 
 # Citation Systems
 
-Olas employs a robust editorial management system that utilizes **attestation IDs** to manage article references, enabling the fair and transparent distribution of retroactive royalty payouts.
+Olas employs an editorial management system that utilises **attestation IDs** to manage article references, enabling transparent distribution of royalty payouts.
 
-Content contributors who wish to submit their work to Olas must first sign an attestation transaction using the wallet keys associated with their unique decentralized identifier (DID). This process serves two critical functions:
+**Content Contributors** who wish to submit their work to Olas must first sign an attestation transaction using the wallet keys associated with their unique decentralised identifier (DID). This process serves two critical functions:
 
 * **Authenticity Verification:** Verify the originality of the submitted content, ensuring that all works published on Olas are genuine and traceable to their source.
-* **Reference Attestation:** Recognizes the use of references, creating an intellectual contribution chain.
+* **Reference Attestation:** Recognizes the use of references, creating a contribution chain.
 
-This transaction creates a unique Attestation ID which is irrevocably tied to the article. This ID is essential for the subsequent tracking and validation of citations used across the platform as well as facilitating retroactive royalty fee payments to the author.
+This transaction creates a unique Attestation ID which is irrevocably tied to the article. This ID is essential for the subsequent tracking and validation of citations used across the platform as well as facilitating royalty fee payments to the author.
 
 ### Royalty Earnings Via Citations
 
-When an article Attestation ID is cited, the originating author receives a predetermined royalty fee, promoting the generation and use of credible content. In other words, every time an attestation ID is referenced by other content contributors, the original author automatically earns a set royalty fee.
+When an article Attestation ID is cited, the originating author receives a predetermined royalty fee, promoting the generation and use of credible content. In other words, every time an attestation ID is referenced by other content contributors, the original author automatically earns a royalty fee.
 
 ### Citation Engine
 
@@ -25,7 +25,7 @@ Following the closure of an information market, the citation engine is updated w
 
 ## Royalty Fee Algorithms
 
-Contributor royalty fees are calculated using a proprietary algorithm developed by Olas. When an article submission includes references, the associated Attestation IDs tied to each reference trigger an automatic royalty fee payment, directly benefiting the original content contributor. Royalty payments are contingent upon a fixed citation price range established by the Olas protocol. Depending on the outcome of a given information market, these royalties are paid out by the beneficiary of the winning side of the market i.e. the content contributor or the Olas matching pool.
+Contributor royalty fees are calculated using an algorithm developed by Olas. When an article submission includes references, the associated Attestation IDs tied to each reference trigger an automatic royalty fee payment, directly benefiting the original content contributor. Royalty payments are contingent upon a fixed citation price range established by the Olas protocol. The prices will differ across sectors. Depending on the outcome of a given information market, these royalties are paid out by the beneficiary of the winning side of the market i.e. the content contributor or the Olas matching pool.
 
 ### Total Royalty Fee Payout
 
