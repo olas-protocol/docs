@@ -22,7 +22,7 @@ Fact Checkers are rewarded based on the **accuracy**, **severity**, **quality,**
 
 * **Uniqueness:** Similar questions are collated by the Lead Judge, and unique questions remain separate.
 * **Severity:** A score from 0-10 is assigned by a Judge to a collated question, which signifies its severity.
-* **Accuracy:** A score from 0-10 is assigned by a Judge to a collated question, which signifies the Judge's belief in the accuracy of the collated question.
+* **Accuracy:** A score from 0-10 is assigned by a Judge to a collated question, which signifies the Judge's belief in the accuracy of the issue raised.
 
 The Fact Checking Reward is calculated using the following formulas:\
 \
