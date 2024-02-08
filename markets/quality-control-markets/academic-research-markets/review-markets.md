@@ -10,7 +10,7 @@ After the scientists submit their research, the methodology checking process beg
 
 <figure><img src="../../../.gitbook/assets/Olas Judging Panel Architecture.png" alt=""><figcaption><p>Figure 7. Olas Judging Panel Architecture</p></figcaption></figure>
 
-Next, a random selection is made from a pool of scientists specialising in the relevant article field, having a minimum reputation score, and having requisite funds in their account. Unlike the Fact Reporting Market, there is no lead judge to collate issues as it is envisaged the issues raised will be fewer and more complex in this market.&#x20;
+Next, a random selection is made from a pool of scientists specialising in the relevant article field, having a minimum reputation score, and having requisite funds in their account. Further a few open seats can be filled by those with proven ability with scientific and statistical methods. Unlike the Fact Reporting Market, there is no lead judge to collate issues as it is envisaged the issues raised will be fewer and more complex in this market.&#x20;
 
 The Judges give a secret vote for **Severity** and **Accuracy Scores** for each of the issues. The Severity Score denotes the level of importance of the inaccuracy found within the research, and the Accuracy Score denotes the judge's confidence in the issued raised. &#x20;
 
