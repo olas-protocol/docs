@@ -39,9 +39,9 @@
 * [Quality Control Markets](markets/quality-control-markets/README.md)
   * [Fact Reporting Markets](markets/quality-control-markets/fact-reporting-markets.md)
   * [Opinion Markets](markets/quality-control-markets/opinion-markets.md)
-  * [Investigative Journalism & Academic Research Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/README.md)
-    * [Review Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/review-markets.md)
-    * [Replication Markets](markets/quality-control-markets/investigative-journalism-and-academic-research-markets/replication-markets.md)
+  * [Academic Research Markets](markets/quality-control-markets/academic-research-markets/README.md)
+    * [Review Markets](markets/quality-control-markets/academic-research-markets/review-markets.md)
+    * [Replication Markets](markets/quality-control-markets/academic-research-markets/replication-markets.md)
 * [Tipping System](markets/tipping-system.md)
 
 ## FAQ

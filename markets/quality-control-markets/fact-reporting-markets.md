@@ -1,5 +1,5 @@
 ---
-description: Unbiased Editorial Review
+description: Unbiased Editorial Review for News and Investigative Journalism
 ---
 
 # Fact Reporting Markets
