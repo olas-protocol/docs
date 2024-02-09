@@ -4,9 +4,9 @@ description: Unbiased Editorial Review for News and Investigative Journalism
 
 # Fact Reporting Markets
 
-The Fact Reporting Market involves two essential roles. **Fact Checkers** are responsible for identifying inaccuracies in articles and are rewarded based on their findings. **Judges** assess the inaccuracies pointed out by these fact-checkers, determine their accuracy, and are rewarded accordingly.
+The Fact Reporting Market involves two essential roles. **Fact Checkers** are responsible for identifying inaccuracies in articles and are rewarded based on their findings. **Judges** assess the alleged inaccuracies pointed out by these fact checkers, determine their accuracy, and are rewarded accordingly.
 
-After the writers submit their articles, the fact-checking process, which is the first step of this market, begins. During this period, anyone can point out an **inaccuracy** in the written article. These inaccuracies are called **Initial Fact Checking Questions(IFCQ)**.
+After the contributors submit their articles the fact-checking process begins. During this period, anyone can point out a factual inaccuracy or a misleading contextual omission in the article. These inaccuracies are called **Initial Fact Checking Questions(IFCQ)**.
 
 <figure><img src="../../.gitbook/assets/Olas Judging Panel Architecture.png" alt=""><figcaption><p>Figure 7. Olas Judging Panel Architecture</p></figcaption></figure>
 

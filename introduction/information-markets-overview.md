@@ -70,10 +70,15 @@ Each market is designed both with its specific requirements and challenges in mi
    * The algorithm both incentivises correct contrarians to participate via the dual-question mechanism and through subsidies from tippers that tip because they like the opinion in question - analogous to bettors in sports.&#x20;
    * Collusion will be minimised by asking tippers to have a unique Olas identity and to make a minimum tip/bet. Further a minimum anti-collusion infrastructure (MACI) protocol will be implemented. There will also be a limit to the amount of tips/bets on opinion pieces an identity can make.
    * Payouts to contributors and bettors will be dependent on the BTS betting result.&#x20;
-3. **Investigative Journalism and Scientific Research Markets**
-   * These sectors employ a tri-market system. &#x20;
-   * Prior to entering a market journalists and scientists will be able raise money from investors as well as donors. The other sectors are limited to donations. Profits will be shared with investors.
-   * The first market, which is identical to the News/Fact reporting market, with fact checking and judgment layers, takes a view on the methodology and statistical analysis and a (preliminary) view on the outcome of the study. This ensures good research will receive funding regardless of the findings.&#x20;
-   * The second market is entered into if contributors believe they've made a big breakthrough that will be verified by others. They can start a 'replication market' whereby anyone can bet on their result being replicated. Other teams will attempt to replicate the findings for a share of the rewards and a fact checking and judging panel consisting of completely different members to the first one, will judge on the replication attempt findings.&#x20;
-   * Payouts will be dependent on the judgements in all three markets.&#x20;
+3.
+
+    **Investigative Journalism and Scientific Research Markets**
+
+    * These sectors employ a tri-market system. &#x20;
+    * Prior to entering a market journalists and scientists will be able raise money from investors as well as donors. The other sectors are limited to donations. Profits will be shared with investors.
+    * The first market, which is identical to the News/Fact reporting market, with fact checking and judgment layers, takes a view on the methodology and statistical analysis and a (preliminary) view on the outcome of the study. This ensures good research will receive funding regardless of the findings.&#x20;
+    * The second market is entered into if, _and only if_, contributors believe they've made a big breakthrough that will be verified by others. They can start a 'replication market' where they can stake some their earnings from the first market on a long position. Olas will take the short side of the market. This guarantees liquidity for bettors. This market is open to all participants.&#x20;
+    * The team will also be able to re-enter the investment funding market in order to raise money for teams that will attempt to replicate their findings. They can offer new investors profit-sharing on their work but will not be able to offer this to the replication attempt team. This is to prevent introducing an incentive to replicate. The money raised will be far in excess of costs however. So there is a strong incentive to do the research regardless of the result.&#x20;
+    * The team(s) that attempt to replicate will receive half of their funding up front. Half will be paid after the methodology checkers and judges pass judgment.&#x20;
+    * Payouts for contributors will be dependent on the judgements in the first and second markets. Payouts for the replicators will depend on the thirs market. Payouts for the fact checkers will depend on the judging panels. Payouts for judges will depend on their distance from the median judge's score.&#x20;
 
