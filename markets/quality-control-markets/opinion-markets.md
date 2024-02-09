@@ -4,26 +4,28 @@ description: Leveraging Bayesian Truth Serum to Reward Correct Contrarians
 
 # Opinion Markets
 
-The Opinion Market within decentralized media serves as a platform where contributors offer diverse opinions and predictions on various subjects. It utilizes betting mechanisms to gauge consensus, employing the **Surprising Popularity Algorithm (SPA)** to determine outcomes. Olas chose the Surprising Popularity Algorithm because it's the most efficient survey algorithm.
+The Opinion Markets within Olas serve as a platform where contributors offer diverse opinions and predictions on various subjects. The great weakness of traditional prediction markets in this sector is that bettors are more incentivised to bet on what they believe the majority believes to be true rather than what they know to be true themselves. This biases outcomes to popularly held but incorrect beliefs.&#x20;
 
-Opinion markets facilitate a democratic exchange of opinions, fostering a consensus-driven approach. These markets aim to harness collective intelligence, aiding decision-making and predicting future events.
+The **Bayesian Truth Serum (BTS) algorithm** was specifically designed to remedy this bias. Olas employs this algorithm via the article tipping/commenting system and implements a specially designed market on top of it to reward contrarians that believe they hold correct but unpopular beliefs. If it turns out that there are others that share this position in greater numbers than alternative possibilities, they will be rewarded. The market will provide a signal to everyone else that this 'surprisingly popular' answer is likely to be the most insightful.&#x20;
 
-Opinion markets rely on a dual-questioning approach, pairing factual queries with predictions of popular opinions. Participants engage by placing bets on their responses, indicating their beliefs and predictions.
+The BTS algorithm works using on a dual-questioning approach, pairing factual queries with predictions of popular opinions. This removes the disincentive to bet that's found in a vanilla prediction market as people can bet both on what they believe to be true and what they believe others think to be true. Not only does it remove the disincentive involved when one holds what they believe to be an unpopular opinion, but it introduces a profit incentive by betting on one's true beliefs because those that bet thinking that they are in the majority actually provide a subsidy to those that know both the majority opinion _and_ the most truthful/accurate one.&#x20;
+
+Here is an overview of how it the opinion markets work:
 
 <figure><img src="../../.gitbook/assets/Opinion Market.png" alt=""><figcaption><p>Figure 9. Opinion Market</p></figcaption></figure>
 
-Experts or Content Contributors contribute well-researched opinion pieces on diverse topics relevant to OLAS ( **Content Creation** ). Each opinion piece poses a factual question (Q) paired with a popular opinion question (P) related to the topic ( **Question Formulation** ). Bettors respond to Q and P with bets, staking funds on their beliefs and predictions. This engagement drives consensus and outcome determination. SPA evaluates discrepancies between responses to Q and P, identifying the Surprisingly Popular Answer.
+Each opinion piece poses a factual question (Q) paired with a popular opinion question (P) related to the topic ( **Question Formulation** ). Bettors respond to Q and P with bets, staking funds on their beliefs and predictions. BTS evaluates discrepancies between responses to Q and P, identifying the Surprisingly Popular Answer (SPA).
 
-#### Discrepancy in the SPA Method:
+#### Discrepancy in the BTS Method:
 
-In the context of the Surprisingly Popular Answer (SPA) methodology within opinion markets, discrepancy represents the difference or variance between two sets of responses. The discrepancy calculation involves comparing the percentage of participants who responded to the factual question (either "Yes" or "No") with the percentage of participants who predicted what they believe most people will respond to the same question.
+In the context of the BTS methodology within Olas, the discrepancy represents the difference or variance between two sets of responses. The discrepancy calculation involves comparing the percentage of participants who responded to the factual question (either "Yes" or "No") with the percentage of participants who predicted what they believe most people will respond to the same question.
 
 Example**:**
 
 * If 60% of participants responded "Yes" to the factual question, but 70% predicted that most people would respond "Yes," the discrepancy for "Yes" would be -10% (60% - 70% = -10%).
 * Similarly, if 40% responded "No" to the factual question, but 30% predicted that most people would respond "No," the discrepancy for "No" would be +10% (40% - 30% = +10%).
 
-The discrepancies highlight the difference between participants' actual responses and their predictions regarding the collective opinion. This variance is crucial in identifying the Surprisingly Popular Answer (SPA), which is the response with the larger discrepancy, as it signifies an unexpected or contrary view compared to popular expectation.
+The discrepancies highlight the difference between participants' actual responses and their predictions regarding the collective opinion. This variance is crucial in identifying the SPA, which is the response with the larger discrepancy, as it signifies an unexpected or contrary view compared to popular expectation.
 
 ## Formulas for Payout Calculations
 
@@ -53,10 +55,9 @@ $$\boxed{  Spread \, ( \, X\% \, ) \, = \, |D_y| \, + \, |D_n| }$$
 **Spread (X%)** is the sum of the absolute value of discrepancy for Yes and the absolute value of discrepancy for No.\
 
 
-#### **Service charge ( SC )**
+#### **Contributor/Olas Fee**
 
-It's a fixed % charged to winning bettors.\
-Content contributors receive a service charge, acknowledging their pivotal role in initiating the market platform and facilitating participant engagement. When a content contributor's stance doesn't align with SPA, it goes to the Olas global pool.
+All winning bettors are taxed a certain percentage (TBD). Depending on which side wins, the contributor's opinion of those betting against it, this tax will be paid to the contributor or the Olas global pool. This is to reward contributors for submitting a good opinion that was validated by the market or, in the case of the opinion being found to be wrong by the market, to provide Olas with funds to fund better opinions in the future.&#x20;
 
 ### 1: **Bettor** Payout Calculations
 

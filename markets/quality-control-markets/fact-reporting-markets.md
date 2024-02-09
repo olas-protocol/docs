@@ -4,7 +4,7 @@ description: Unbiased Editorial Review for News and Investigative Journalism
 
 # Fact Reporting Markets
 
-The Fact Reporting Market involves two essential roles. **Fact Checkers** are responsible for identifying inaccuracies in articles and are rewarded based on their findings. **Judges** assess the alleged inaccuracies pointed out by these fact checkers, determine their accuracy, and are rewarded accordingly.
+The Fact Reporting Market involves two essential roles. **Fact Checkers** are responsible for identifying inaccuracies in articles and are rewarded based on their findings. **Judges** assess the alleged inaccuracies pointed out by these fact checkers, determine their validity, and are rewarded depending on their position vis-à-vis the other judges.
 
 After the contributors submit their articles the fact-checking process begins. During this period, anyone can point out a factual inaccuracy or a misleading contextual omission in the article. These inaccuracies are called **Initial Fact Checking Questions(IFCQ)**.
 
@@ -17,7 +17,7 @@ The Lead Judge is responsible for 2 duties:
 * Assigning a **Quality Score** to each **Fact Checker** - based on how well the questions are formulated and the quality of supporting evidence.
 * Grouping the **IFCQ's** into different questions - this is done to keep unique questions separate and combine similar questions.
 
-Subsequently, the questions grouped by the Lead Judge are sent to all the Judges for voting. The Judges give a secret vote for **Severity** and **Accuracy Scores** for each of the grouped questions. The Severity Score denotes the level of importance of the inaccuracy found within the article, and the Accuracy Score denotes the judge's confidence in the question posed.&#x20;
+Subsequently, the questions grouped by the Lead Judge are sent to all the Judges for voting. Voting on **Severity** and **Accuracy Scores** for each of the grouped questions is done by secret ballot. Judges are unaware who else is on the panel. The Severity Score denotes the level of importance of the inaccuracy found within the article, and the Accuracy Score denotes the judge's confidence in the question posed.&#x20;
 
 Once the judges finish scoring and the outcomes are revealed, the rewards for Fact Checkers, Judges, and Content Contributors are determined based on the outcomes.
 
@@ -122,7 +122,7 @@ The final distribution of Fact Checker Rewards is as follows:
 
 ### **1.2. Judges Reward**
 
-To participate in the Judging Panel, each Judge must stake a certain amount of funds. Judges must either use funds obtained through the funding mechanism that are currently locked in the protocol or stake their own funds. The amount they stake depends on the initial amount the content contributor staked in the article.
+To participate in the Judging Panel, each Judge must stake a certain amount of funds. Judges must either use funds obtained through the funding mechanism that are currently locked in the protocol or stake their own funds. The amount they stake depends on the initial amount the content contributor staked in the article although very large stakes will result in a larger judging panel.&#x20;
 
 Judges are rewarded for each fact checking question (FCQ) based on the **proximity** of their **accuracy score** to the **median** of all judge's accuracy scores. The use of median ensures that rewards are distributed based on a score that is resilient to outliers.
 
@@ -263,9 +263,7 @@ The final distribution of Judge Rewards is as follows:
 
 ### 1.3 Content Contributor Reward
 
-Content Contributors in Olas have the opportunity to apply for funds through periodic funding rounds. In these rounds, they receive donations from active donors. The amount of donations each contributor receives plays a significant role in the quadratic funding mechanism, which determines the funds matched to each contributor. Upon securing these funds, contributors' accounts will have these funds **locked**. \
-\
-A unique feature of Olas is that contributors stake an amount on each article they write, using their **locked funds**. This staking process represents a commitment to the **quality** and **reliability** of their content, as it involves a direct financial stake in the success and **accuracy** of the article. Alternatively, contributors can choose to stake their **own** money instead of participating in funding rounds. This can enhance their reputation within the protocol and improve their chances of achieving better results in future funding rounds.
+A unique feature of Olas is that contributors stake an amount on each article they write. This staking process represents a commitment to the **quality** and **reliability** of their content, as it involves a direct financial stake in the success and **accuracy** of the article.&#x20;
 
 \
 The reward for Content Contributors is calculated based on the following factors:
@@ -281,12 +279,9 @@ $$N\, = \, Number \,of \, Fact \, Checking \,Questions$$\
 $$S_{A_{max}}\, = \, Maximim \,Possible \, Accuracy \,Score$$\
 
 
-**Deferred Payout:** Irrespective of the article's score, content contributors are guaranteed 20% of their staked amount as a Deferred Payout. This ensures that contributors receive a fixed portion of their stake regardless of the article score. For example, if a contributor stakes $100, the deferred pay is $20 (20% of the staked amount).
+**Guaranteed Payout:** Irrespective of the article's score, content contributors are guaranteed 20% of their staked amount as payment. This ensures that contributions aren't deemed to risky to make. For example, if a contributor stakes $100, the guaranteed pay is $20 (20% of the staked amount).
 
-\
-**Evaluated Stake Payout:** After the **deferred payout**, the remaining **80%** of the staked amount is subject to the article's score evaluation. This part of the stake is dependent on the **article score.** For instance, if a contributor stakes $100 on an article and receives a score of 70%, then 70% of the remaining $80 stake, which is $56, is unlocked and made accessible to the contributor.
-
-
+**Evaluated Stake Payout:** The remaining **80%** of the staked amount is subject to the article's score evaluation. This part of the stake is dependent on the **article score.** For instance, if a contributor stakes $100 on an article and receives a score of 70%, then 70% of the remaining $80 stake, which is $56, is unlocked and made accessible to the contributor.
 
 **Tips Payout**: Contributors receive a **portion of the tips**, given by readers to their articles. The allocation of tips is dependent on the article score. For instance, if an article scores 70%, 70% of the tips go to the contributor, while the remaining 30% is directed to the global pool.\
 
