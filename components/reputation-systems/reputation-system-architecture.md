@@ -41,7 +41,8 @@
 * Fact-checkers are users who **identify inaccuracies** in content published within **Fact Reporting Markets** and submit them for review by the judging panel.
 * They are rewarded for submitting valid inaccuracies and their reward scales in relation to the uniqueness and severity of the inaccuracies found.
 * **Reputation Score (RS) Impact:**
-  * RS determines a fact checker's earning potential via reward distribution and access to judging panel opportunities. The higher the fact checker's RS, the higher the rewards they are paid for submitting valid inaccuracies. Also, once a fact checker's RS score surpasses a set threshold, they become eligible to participate in lucrative judging panel opportunities.
+  * RS determines a fact checker's earning potential via reward distribution and access to judging panel opportunities. The higher the fact checker's RS, the higher the rewards they are paid for submitting valid inaccuracies. Also, once a fact checker's RS score surpasses a set threshold, they become eligible to participate in judging panel opportunities.
+  * Conversely, if their reputation score suffers a significant weekly drop, they will be frozen out of fact checking markets for a period.&#x20;
 
 {% hint style="info" %}
 Fact-checkers who submit a high volume of invalid issues over a short period (i.e. over a 1-2 week period) are banned from submitting issues for 1-3 weeks depending on the volume of inaccurate issues they have submitted during that period.

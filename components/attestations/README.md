@@ -2,7 +2,7 @@
 
 ## What is an Attestation?
 
-An Attestation is a novel primitive introduced in the domain of Web3, aimed at enhancing decentralized reputation tracking mechanisms. It is a verifiable claim, often endorsed by a third party, concerning the actions, traits, or credentials of a participant within a decentralized network. Cryptographic security is fundamental to attestations, facilitating a transparent and trustworthy process for affirming the reputation and credibility of individuals or entities within the network.
+An Attestation is a novel primitive introduced in the domain of Web3, aimed at enhancing decentralised reputation tracking mechanisms. It is a verifiable claim, often endorsed by a third party, concerning the actions, traits, or credentials of a participant within a network. Cryptographic security is fundamental to attestations, facilitating a transparent and trustworthy process for affirming the reputation and credibility of individuals or entities within the network.
 
 ***
 
@@ -21,10 +21,10 @@ Attestations provide a structured mechanism for:
   * They help in creating trust in a trustless protocol by providing endorsements from credible sources.
 * **Transparency and Verifiability:**
   * The cryptographic foundation of attestations ensures a transparent and verifiable trail of endorsements, which is pivotal for a fair reputation assessment.
-* **Incentivization and Accountability:**
-  * Attestations enable the recognition and rewarding of commendable content contributions, while also providing a means to track and penalize dishonest or malicious activities, thereby cultivating a culture of accountability.
+* **Incentivisation and Accountability:**
+  * Attestations enable the recognition and rewarding of commendable content contributions, while also providing a means to track and penalise dishonest or malicious activities, thereby cultivating a culture of accountability.
 * **Interoperability:**
-  * Standardized attestations can be shared across diverse platforms and applications within the Web3 ecosystem, promoting interoperability and a more cohesive editorial management framework.
+  * Standardised attestations can be shared across diverse platforms and applications within the Web3 ecosystem, promoting interoperability and a more cohesive editorial management framework.
 
 ## Attestations in Olas
 
