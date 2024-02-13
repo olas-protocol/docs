@@ -8,7 +8,7 @@ The Tagging System implemented on Olas serves as a pivotal tool for curating and
 
 ### Olas-Generated Tags
 
-Each [Sub-Pool](broken-reference) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
+Each [Topic Pool](broken-reference) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
 
 ### User-Generated Tags
 
@@ -18,7 +18,7 @@ Content Contributors also possess the capability to introduce new top-level tags
 
 ### **Taxonomy**
 
-The tagging system adheres to a customisable taxonomy. Top-level tags directly align with the Sub-Pools in the Olas ecosystem. Content Contributors are empowered to create lower-level tags (entities) to refine and elaborate on the tagging system, ensuring a more granular classification of content.
+The tagging system adheres to a customisable taxonomy. Top-level tags directly align with the Topic Pools in the Olas ecosystem. Content Contributors are empowered to create lower-level tags (entities) to refine and elaborate on the tagging system, ensuring a more granular classification of content.
 
 ### Content Flagging
 
