@@ -20,7 +20,7 @@ This formula dictates that the amount received by the project from the matching 
 
 Let's understand this with the help of a diagram:
 
-<figure><img src="../../../.gitbook/assets/Competition between content contributors (1).png" alt=""><figcaption><p>Figure 6. Competition between Content Contributors For Funding</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Competition Between Content Contributors for Funding .png" alt=""><figcaption><p>Figure 6. Competition between Content Contributors For Funding</p></figcaption></figure>
 
 If there is insufficient funds in the matching pool to match the funds to meet the requirements of the quadratic funding formula, each contributor will receive a reduced payout in proportion to the relative claims over the matching pool.&#x20;
 

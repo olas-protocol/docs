@@ -14,7 +14,7 @@ Funds will be allocated across topics and writers using credibly neutral mechani
 
 The following sequence diagram demonstrates how the Olas funding mechanism for news and opinion works:
 
-<figure><img src="../../../.gitbook/assets/Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/New &#x26; Opinion Funding Mechanism.png" alt=""><figcaption><p>Figure 4. Funding Mechanism</p></figcaption></figure>
 
 [News and Opinion Sector Pool](../../../components/funding-pools.md#sector-pools)
 
