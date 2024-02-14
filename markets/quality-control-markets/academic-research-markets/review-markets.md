@@ -8,117 +8,101 @@ The Academic Reporting Market involves two essential roles. **Methodology Checke
 
 After the scientists submit their research, the methodology checking process begins. During this period, anyone can point out an **inaccuracy** in the research. These inaccuracies are called **Initial Methodological Issues (IMIs)**.
 
-<figure><img src="../../../.gitbook/assets/Olas Judging Panel Architecture.png" alt=""><figcaption><p>Figure 7. Olas Judging Panel Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/olas review markets diagram.png" alt=""><figcaption><p>Figure 7. Olas Review Markets</p></figcaption></figure>
 
 Next, a random selection is made from a pool of scientists specialising in the relevant article field, having a minimum reputation score, and having requisite funds in their account. Further a few open seats can be filled by those with proven ability with scientific and statistical methods. Unlike the Fact Reporting Market, there is no lead judge to collate issues as it is envisaged the issues raised will be fewer and more complex in this market.&#x20;
 
-The Judges give a secret vote for **Severity** and **Accuracy Scores** for each of the issues. The Severity Score denotes the level of importance of the inaccuracy found within the research, and the Accuracy Score denotes the judge's confidence in the issued raised. &#x20;
+The Judges give a secret vote for **Severity** and **Accuracy Scores** for each of the issues. The Severity Score denotes the level of importance of the inaccuracy found within the research, and the Accuracy Score denotes the judge's confidence in the issue raised. &#x20;
 
-Once the judges finish scoring and the outcomes are revealed, the rewards for Fact Checkers, Judges, and Content Contributors are determined based on the outcomes.
+Once the judges finish scoring and the outcomes are revealed, the rewards for Methodology Checkers, Judges, and Content Contributors are determined based on the outcomes.
 
-### &#x20;**1.1. Fact Checkers Reward**
+### &#x20;**1.1. Methodology Checkers Reward**
 
-Fact Checkers are rewarded based on the **accuracy**, **severity**, **quality,** and **uniqueness** of their contributions.
+Methodology Checkers are rewarded based on the **accuracy and** **severity** of their contributions.
 
-* **Uniqueness:** Similar questions are collated by the Lead Judge, and unique questions remain separate.
-* **Severity:** A score from 0-10 is assigned by a Judge to a collated question, which signifies its severity.
-* **Accuracy:** A score from 0-10 is assigned by a Judge to a collated question, which signifies the Judge's belief in the accuracy of the issue raised.
+* **Severity:** A score from 0-10 is assigned by a Judge to a methodological issue, which signifies its severity.
+* **Accuracy:** A score from 0-10 is assigned by a Judge to a methodological issue, which signifies the Judge's belief in the accuracy of the issue raised.
 
-The Fact Checking Reward is calculated using the following formulas:\
+The Methodology Checking Reward is calculated using the following formulas:\
 \
-\
-$$\boxed{S_G = \frac{ \left( M_S \times W_S) + ({S_Q} \times {W_Q} \right) }{ \text{CQ} + 1 } \times \frac{{M_A}}{10} }$$
+$$\boxed{S_G = { \left( M_S \times W_S) + ({M_A} \times {W_A} \right) } }$$
 
 \
 $$S_G\, = \, General \,Score$$\
 $$M_S\, = \, Median \, of \, Severity \, Scores$$\
 $$M_A\, = \, Median \, of \, Accuracy \, Scores$$\
 $$W_S \, = \, Severity \, Weight$$\
-$$W_Q \, = \, Quality \, Weight$$\
-$$S_Q \, = \, Quality \, Score$$\
-$$CQ\, = \, Combined \, Questions(if\, any)$$
-
+$$W_A \, = \, Accuracy \, Weight$$\
 \
-Each Fact Checker's **General Score** is calculated using a weighted formula that takes into account the severity and quality of their submission, as well as the median value of the accuracy scores (provided by all judges).\
+Each Methodology Checker's **General Score** is calculated using a weighted formula that takes into account the **severity** and **accuracy** of their submission.\
 
 
 $$\boxed{ S_T \, = \, \displaystyle\sum_{i=1}^N  \, S_{Gi}\,}$$\
 \
 $$S_T\, = \, Total \, Score$$\
-$$N\, = \, Number \,of \, Fact \, Checkers$$
+$$N\, = \, Number \,of \, Methodology \, Checkers$$
 
-Then **Total Score** is calculated by summing the rewards of all Fact Checkers, providing a baseline for proportional reward distribution.\
+The **Total Score** is calculated by summing the rewards of all Methodology Checkers, providing a baseline for proportional reward distribution.\
 
 
-$$\boxed{ R_{FC} \, = \, \dfrac{ S_{G} }{ S_T} \times \, TR_F}$$\
+$$\boxed{ R_{MC} \, = \, \dfrac{ S_{G} }{ S_T} \times \, TR_M}$$\
 \
-$$R_{FC}\, = \, Fact \,Checker \,Reward$$\
-$$TR_F\, = Total\,Reward \,of \, Fact \, Checkers$$
+$$R_{MC}\, = \, Methodology \,Checker \,Reward$$\
+$$TR_M\, = Total\,Reward \,of \, Methodology \, Checkers$$
 
-Once the Total Score is determined, the **Fact Checkers' rewards** are calculated proportionally.
+Once the Total Score is determined, the **Methodology Checkers' rewards** are calculated proportionally.
 
-### **1.1.1 Example Fact Checking Reward Calculation**
+### **1.1.1 Example** Methodology **Checking Reward Calculation**
 
 In this example, predefined **severity** and **quality** weights from the protocol are used, along with a **fixed** **reward** for the article.
 
-| Judging Panel Variables       | Values   |
-| ----------------------------- | -------- |
-| Severity Weight               | 0.7      |
-| Quality Weight                | 0.3      |
-| Total Reward of Fact Checkers | 100 USDC |
+| Judging Panel Variables              | Values   |
+| ------------------------------------ | -------- |
+| Severity Weight                      | 0.4      |
+| Accuracy Weight                      | 0.6      |
+| Total Reward of Methodology Checkers | 100 USDC |
 
 
-
-The Lead Judge assigns a quality score to each Fact Checker
-
-<table><thead><tr><th width="330">Fact Checker</th><th width="413.3333333333333">Quality Scores given by Lead Judge</th></tr></thead><tbody><tr><td>FC1</td><td>7</td></tr><tr><td>FC2</td><td>8</td></tr><tr><td>FC3</td><td>7</td></tr><tr><td>FC4</td><td>4</td></tr></tbody></table>
-
-
-
-The Lead Judge reviews fact checking questions and determines if any are similar. Questions sent by **FC1** and **FC2** are identified as **similar** and are **merged** into a single question, now referred to as **FCQ12**.
 
 Subsequently, all judges provide **Severity** and **Accuracy** Scores for the question. The **median** of these scores is used.
 
-<table><thead><tr><th width="272.3333333333333">Fact Checking Questions</th><th width="232">Median of Severity Scores</th><th>Median of Accuracy Scores</th></tr></thead><tbody><tr><td>FCQ12 (FC1 and FC2 merged)</td><td>6</td><td>9</td></tr><tr><td>FCQ2 (FC3)</td><td>8</td><td>7</td></tr><tr><td>FCQ3 (FC4)</td><td>5</td><td>2</td></tr></tbody></table>
+<table><thead><tr><th width="303.3333333333333">Methodological Issues</th><th width="232">Median of Severity Scores</th><th>Median of Accuracy Scores</th></tr></thead><tbody><tr><td>MI1</td><td>6</td><td>7</td></tr><tr><td>MI2</td><td>8</td><td>8</td></tr><tr><td>MI3</td><td>5</td><td>7</td></tr></tbody></table>
 
-The general score is calculated for all the fact checking questions.
+The general score is calculated for all the methodological issues.
 
 {% hint style="info" %}
-General Score = \[(Median of Severity Scores × Severity Weight) + (Quality Score × Quality Weight)] / (Combined Questions + 1) × (Median of Accuracy Scores / 10)
+General Score = (Median of Severity Scores × Severity Weight) + (Median of Accuracy Scores × Accuracy Weight)
 {% endhint %}
 
-_General Score FC1 = \[(6 x 0.7) + (7 x 0.3) / 1 + 1 ] x (9 / 10) = 2.835_
+_General Score MI1 = \[(6 x 0.4) + (7 x 0.6) ] = 6.6_
 
-_General Score FC2 = \[(6 x 0.7) + (8 x 0.3) / 1 + 1 ] x (7 / 10) = 2.31_
+_General Score MI2 = \[(8 x 0.4) + (8 x 0.6) ] = 8_
 
-_General Score FC3 = \[(8 x 0.7) + (7 x 0.3) / 0 + 1 ] x (6 / 10) = 4.62_
+_General Score MI3 = \[(5 x 0.4) + (7 x 0.6) ]  = 6.2_
 
-_General Score FC4 = \[(5 x 0.7) + (4 x 0.3) / 0 + 1 ] x (2 / 10) = 0.94_
-
-_**Total Score = 2.835 + 2.31 + 4.62 + 0.94 =**_** 10.705**\
+_**Total Score = 6.6 + 8 + 6.2 =**_** 20.8**\
 
 
 {% hint style="info" %}
-Reward Per Fact Checker = (General Score / Total Score) x Total Reward of Fact Checkers
+Reward Per Methodology Checker = (General Score / Total Score) x Total Reward of Methodology Checkers
 {% endhint %}
 
-_Fact Checker 1 Reward = (2.835 / 10.705 ) x 100 = $26.48_
+Methodology _Checker 1 Reward = (6.6 /_ 20.8 _) x 100 = $_31.730
 
-_Fact Checker 2 Reward = (2.31 / 10.705 ) x 100 = $21.58_
+Methodology _Checker 2 Reward = (8 /_ 20.8 _) x 100 = $_38.4615
 
-_Fact Checker 3 Reward = (4.62 / 10.705 ) x 100 = $43.16_
+Methodology _Checker 3 Reward = (6.2 /_ 20.8 _) x 100 = $_29.8076
 
-_Fact Checker 4 Reward = (0.94 / 10.705 ) x 100 = $8.78_\
 \
-The final distribution of Fact Checker Rewards is as follows:
+The final distribution of Methodology Checker Rewards is as follows:
 
-<table><thead><tr><th width="312.3333333333333">Collated Fact Checking Question</th><th>General Score</th><th>Reward</th></tr></thead><tbody><tr><td>Fact Checker 1 </td><td>2.835</td><td>26.48</td></tr><tr><td>Fact Checker 2 </td><td>2.31</td><td>21.58</td></tr><tr><td>Fact Checker 3</td><td>4.62</td><td>43.16</td></tr><tr><td>Fact Checker 4</td><td>0.94</td><td>8.78</td></tr></tbody></table>
+<table><thead><tr><th width="312.3333333333333">Methodology Checkers</th><th>General Score</th><th>Reward</th></tr></thead><tbody><tr><td>Methodology Checker 1 </td><td><em>6.6</em></td><td>31.730</td></tr><tr><td>Methodology Checker 2 </td><td><em>8</em></td><td>38.4615</td></tr><tr><td>Methodology Checker 3</td><td><em>6.2</em></td><td>29.8076</td></tr></tbody></table>
 
 ### **1.2. Judges Reward**
 
 To participate in the Judging Panel, each Judge must stake a certain amount of funds. Judges must either use funds obtained through the funding mechanism that are currently locked in the protocol or stake their own funds. The amount they stake depends on the initial amount the content contributor staked in the article.
 
-Judges are rewarded for each fact checking question (FCQ) based on the **proximity** of their **accuracy score** to the **median** of all judge's accuracy scores. The use of median ensures that rewards are distributed based on a score that is resilient to outliers.
+Judges are rewarded for each methodological issue (MI) based on the **proximity** of their **accuracy score** to the **median** of all judge's accuracy scores. The use of median ensures that rewards are distributed based on a score that is resilient to outliers.
 
 The Judging Reward is calculated using the following formulas:\
 
@@ -148,7 +132,7 @@ $$R_J\, = \, Judge's \,Reward$$\
 $$R_{J_{total}} \, = Total\,Reward \, available \, for \, Judges$$\
 \
 \
-Each Judge's Reward is calculated by taking their individual Proximity Score and dividing it by the Total Proximity Score, which is then multiplied by the Total Reward available for the fact-checking question
+Each Judge's Reward is calculated by taking their individual Proximity Score and dividing it by the Total Proximity Score, which is then multiplied by the Total Reward available for the methodological issue.
 
 {% hint style="info" %}
 When all the judges vote with the same accuracy score, they get back their original staked amount.
@@ -156,14 +140,14 @@ When all the judges vote with the same accuracy score, they get back their origi
 
 ### **1.2.1 Example Judging Reward Calculation**
 
-In this example, we use a panel of 5 judges, though actual panels may have more judges. Each judge stakes $10 to evaluate a particular fact checking question in an article.
+In this example, we use a panel of 5 judges, though actual panels may have more judges. Each judge stakes $10 to evaluate a particular methodological issue(MI) in an article.
 
 | Variables    | Values              |
 | ------------ | ------------------- |
 | Total Judges | 5                   |
 | Total Reward | $50 ($10 Per Judge) |
 
-The following table shows the distribution of accuracy scores for a specific fact checking question, indicating judge's confidence in the statement's accuracy.\
+The following table shows the distribution of accuracy scores for a specific methodological issue, indicating judge's confidence in the statement's accuracy.\
 
 
 | Judges | Accuracy Scores Given By Judges |
@@ -264,14 +248,14 @@ A unique feature of Olas is that contributors stake an amount on each article th
 \
 The reward for Content Contributors is calculated based on the following factors:
 
-**Article Score:** The article score is calculated by summing the median of accuracy scores of all fact checking questions and then dividing it by the maximum possible accuracy score. For instance, with accuracy scores of 9, 7, and 2, the article score is 18 out of a maximum of 30(assuming max possible accuracy score is 10), resulting in a score of 0.6, which equates to 60%.
+**Article Score:** The article score is calculated by summing the median of accuracy scores of all methodological issues and then dividing it by the maximum possible accuracy score. For instance, with accuracy scores of 9, 7, and 2, the article score is 18 out of a maximum of 30(assuming max possible accuracy score is 10), resulting in a score of 0.6, which equates to 60%.
 
 \
-$$\boxed{S_{AR} = \frac{{\sum_{i=1}^N ( \, M_{A_{FC_{i}}})}}{{N \,\times \,S_{A_{max}}} }}$$\
+$$\boxed{S_{AR} = \frac{{\sum_{i=1}^N ( \, M_{A_{MI_{i}}})}}{{N \,\times \,S_{A_{max}}} }}$$\
 \
 $$S_{AR}\, = \, Article \,Score$$\
-$$M_{A_{FC}}\, = \,Median \, of \,the\,Accuracy \, Scores \,for \,a \, Fact \,Checking \,Question$$\
-$$N\, = \, Number \,of \, Fact \, Checking \,Questions$$\
+$$M_{A_{MI}}\, = \,Median \, of \,the\,Accuracy \, Scores \,for \,a \, Methodological \,Issue$$\
+$$N\, = \, Number \,of \, Methodological \, Issues$$\
 $$S_{A_{max}}\, = \, Maximim \,Possible \, Accuracy \,Score$$\
 
 
