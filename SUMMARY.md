@@ -9,6 +9,7 @@
 
 * [Reader](participants/reader.md)
 * [Content Contributor](participants/content-contributor.md)
+* [Curator](participants/curator.md)
 * [Fact Checker](participants/fact-checker.md)
 * [Judge](participants/judge.md)
 * [Donor](participants/donor.md)
