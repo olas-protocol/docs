@@ -12,7 +12,9 @@ It is envisaged and expected that such donors will be high-net-worth philanthrop
 
 ### Sector Pools
 
-Between the _Olas Global Pool_ are two layers of sub pools. The first consists of just three pools that represent the funding available to the three types of [information markets](../introduction/information-markets-overview.md) on the protocol:
+Below the _Olas Global Pool,_ there are _Sector Pools_. There are four sector pools that represent the funding available to the three types of Quality Control Markets on the protocol.
+
+Four sector pools are:
 
 1. News/facts reporting&#x20;
 2. Opinion/Analysis&#x20;
@@ -23,8 +25,8 @@ The Olas Foundation will decide each quarter how much the share of global pool f
 
 ### Topic Pools
 
-Below this layer of sub pools is a further layer. These sub pools represent topics/issues/areas of research. Funding allocated to these from the three primary sub pools is done so via decentralised methods. The mechanisms by which this happens for news/facts and opinions is outline [here](broken-reference).  The mechanisms by which this happens for investigative journalism and scientific research happens [here.](broken-reference)&#x20;
+Below the Sector Pools is a further layer of Topic Pools. These topic pools represent topics/issues/areas of research. Funding allocated to these from the four sector pools is done via decentralised methods. The mechanisms by which this happens for news/facts and opinions is outline [here](../markets/funding-markets/news-and-opinion-funding-mechanisms/).  The mechanisms by which this happens for investigative journalism and scientific research happens [here](../markets/funding-markets/investigative-journalism-and-scientific-research-funding-mechanisms/).&#x20;
 
-<mark style="background-color:yellow;">TODO: Diagram showing a big blue box of Global Pool, then 4 boxes showing sector pools, and then a final layer of topic pools AKA (original) sub-pools</mark>
 
-<mark style="background-color:yellow;">TODO: Rename sub-pools to topic pools throughout the doc</mark>
+
+<figure><img src="../.gitbook/assets/Funding Pools Diagram Olas.png" alt=""><figcaption><p>Figure 1. Funding Pools</p></figcaption></figure>
