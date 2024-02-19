@@ -18,4 +18,4 @@ A high-level overview of Olas markets:
 3. After publication, readers can tip the article to support the content contributors directly. However, the tips only go to the contributor if their market-awarded score is sufficient&#x20;
 4. A Reputation Engine updates the reputation scores of different participants based on their interactions and performance within each market
 
-<figure><img src="../../.gitbook/assets/All the diagrams (1).png" alt=""><figcaption><p>Figure 1. High-Level Overview of Olas</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/olas quality control markets overiview diagram.png" alt=""><figcaption><p>Figure 1.  Overview of Olas Quality Control Markets</p></figcaption></figure>
