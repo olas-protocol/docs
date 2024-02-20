@@ -1,5 +1,5 @@
 ---
-description: Mechanisms for higher up front costs
+description: Mechanisms for high cost, high value information
 ---
 
 # Investigative Journalism & Scientific Research Funding Mechanisms
