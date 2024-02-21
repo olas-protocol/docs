@@ -1,5 +1,5 @@
 ---
-description: A tri-market system to fix science
+description: Tri-market System
 ---
 
 # Scientific Research Markets
