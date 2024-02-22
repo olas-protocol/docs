@@ -10,13 +10,24 @@ In light of this we propose a hybrid system analogous to the public-private part
 
 Here is the chronology of the fund raising process:
 
-1. The process begins with an investigative journalist or scientist (or groups of either) making a proposal for research.&#x20;
-2. They will state a budget and what percentage of the profit they are willing to share for a raise that covers the budget. They will also state a timeline for the research and project milestones. A deadline for the raise must be set so that funders who commit funding can receive it back within a certain timeframe rather than it being indefinitely committed to a project that isn't reaching its target. However, if funders agree, they can roll their funds over to a new raise on deadline day.&#x20;
-3. If the target is met, a tranche of funds will be released to start the project. Researchers will constantly have to update funders on their work and funders will vote by simple majority to release more funds when requested by the researchers.&#x20;
-4. Once the research is completed, it'll be given a score and a costs award by a [review market](broken-reference). This costs award may be lower than the declared budget.&#x20;
-5. At the end of that quarter, the project will receive funding from the Investigative Journalism Funding Pool or the Scientific Research Funding Pool based on its score, its costs award and also the respective scores and awards of everyone else competing for the quarterly payout.&#x20;
+* The process begins with an investigative journalist or scientist (or groups of either) making a proposal for research.&#x20;
+* They will state a budget and what percentage of the profit they are willing to share for a raise that covers the budget. They will also state a timeline for the research and project milestones. A deadline for the raise must be set so that funders who commit funding can receive it back within a certain timeframe rather than it being indefinitely committed to a project that isn't reaching its target. However, if funders agree, they can roll their funds over to a new raise on deadline day.&#x20;
+* If the target is met, a tranche of funds will be released to start the project. Researchers will constantly have to update funders on their work and funders will vote by simple majority to release more funds when requested by the researchers.&#x20;
 
-<mark style="background-color:orange;">WE NEED A DIAGRAM THAT COVERS POINTS 1, 2 & 3. POINT 4 WILL BE COVERED IN THE INFORMATION MARKETS SECTION SO IGNORE. THEN WE ALSO NEED TO FORMALISE AND MAKE A DIAGRAM OF POINT 5.</mark>&#x20;
+<div data-full-width="true">
+
+<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (4) (1).png" alt=""><figcaption><p>Figure 1. Investment &#x26; Funding Market Overview</p></figcaption></figure>
+
+</div>
+
+* Once the research is completed, it'll be given a score and a costs award by a [review market](broken-reference). This costs award may be lower than the declared budget.&#x20;
+* At the end of that quarter, the project will receive funding from the Investigative Journalism Funding Pool or the Scientific Research Funding Pool based on its score, its costs award and also the respective scores and awards of everyone else competing for the quarterly payout.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (2).png" alt=""><figcaption><p>Figure 2. Quarterly Funding Pool Payout Mechanism</p></figcaption></figure>
+
+</div>
 
 ### Quarterly Funding Pool Payout&#x20;
 
