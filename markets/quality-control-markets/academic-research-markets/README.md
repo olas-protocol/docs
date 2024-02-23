@@ -15,5 +15,3 @@ Another huge issue with the way science is conducted today is that if a discover
 Olas will implement a tri-market system to remedy all of these problems.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Academic and Research Market - Page 1 (6).jpeg" alt=""><figcaption></figcaption></figure>
-
-TODO: Review, Replication and then Review again.
