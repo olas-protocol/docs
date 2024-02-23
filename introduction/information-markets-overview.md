@@ -58,13 +58,13 @@ It is imperative therefore that all markets, and therefore the reputation system
 
 Each market is designed both with its specific requirements and challenges in mind, and with collusion-resistance in mind at every stage.&#x20;
 
-1. **News/Fact Reporting Market**
+1. **News/Fact Reporting**&#x20;
    * This market features two main roles: **Fact Checkers**, who scrutinise articles to identify inaccuracies, and **Judges,** who evaluate these findings for validity.
    * The process starts with the submission of an article accompanied by a stake by a **content contributor,** followed by an open phase for fact-checking where anyone can submit potential inaccuracies.&#x20;
    * These inaccuracies are then verified by a partially randomly selected panel of judges with self-declared but proven knowledge of the subject matter in question. There are also some open seats that are open to fact checkers with a high reputation score. No two judges will be permitted to sit on the same panel together more than a TBH amount.
    * The work of the fact checkers and judges is subsidised by the contributor's stake and Olas.&#x20;
    * Payouts for contributors are dependent on their score. Payouts for fact checkers are dependent on the judge's views of the issue(s) they raised. Payouts for individual judges are dependent on their proximity to the median judge.&#x20;
-2. **Opinion Market**
+2. **Opinion**&#x20;
    * Opinion markets will work through tipping. Every time someone tips an article they will need to fill out a two-question questionnaire. The format of this questionnaire is known as Bayesian Truth Serum and is specially designed to entice people that believe they hold a correct but unpopular opinion into the market.&#x20;
    * The dual-question mechanism asks participants to both take a view of the opinion piece in question and predict the majority's response to the same question. The BTS algorithm then identifies the "surprisingly popular" answer, which is more popular than participants predicted, indicating it may reflect important insights from the crowd.
    * The algorithm both incentivises correct contrarians to participate via the dual-question mechanism and through subsidies from tippers that tip because they like the opinion in question - analogous to bettors in sports.&#x20;
@@ -72,7 +72,7 @@ Each market is designed both with its specific requirements and challenges in mi
    * Payouts to contributors and bettors will be dependent on the BTS betting result.&#x20;
 3.
 
-    **Investigative Journalism and Scientific Research Markets**
+    **Investigative Journalism and Scientific Research**&#x20;
 
     * These sectors employ a tri-market system. &#x20;
     * Prior to entering a market journalists and scientists will be able raise money from investors as well as donors. The other sectors are limited to donations. Profits will be shared with investors.
