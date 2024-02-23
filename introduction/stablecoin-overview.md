@@ -28,7 +28,7 @@ Currencies that are both durable and stable have a number of properties. Firstly
 
 ### Olas Stablecoin Summary
 
-The yet-to-be named Olas stablecoin will be built with these lessons in mind.&#x20;
+The yet-to-be named Olas stablecoin will be built with these history lessons in mind.&#x20;
 
 1. The currency will be issued by being collateralised with Olas.
 2. Donations and tips will be automatically converted to the native currency.&#x20;
