@@ -1,5 +1,5 @@
 ---
-description: 'The Holy Trinity: Decentralised, Stable and Scalable.'
+description: 'In Search of the Holy Trinity: Decentralised, Stable and Scalable.'
 ---
 
 # Stablecoin
