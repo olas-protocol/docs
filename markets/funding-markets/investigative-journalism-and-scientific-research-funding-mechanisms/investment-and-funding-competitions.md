@@ -20,7 +20,7 @@ Here is the chronology of the fund raising process:
 
 </div>
 
-* Once the research is completed, it'll be given a score and a costs award by a [review market](broken-reference). This costs award may be lower than the declared budget.&#x20;
+* Once the research is completed, it'll be given a score and a costs award by a [review market](../../quality-control-markets/academic-research-markets/review-markets.md). This costs award may be lower than the declared budget.&#x20;
 * At the end of that quarter, the project will receive funding from the Investigative Journalism Funding Pool or the Scientific Research Funding Pool based on its score, its costs award and also the respective scores and awards of everyone else competing for the quarterly payout.&#x20;
 
 <div data-full-width="true">

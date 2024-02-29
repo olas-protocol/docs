@@ -186,7 +186,7 @@ When content contributor's stance aligns with SPA, they get the whole stake alon
 Let's assume their initial stance to **(Q):** "Will quantum computing become commercially viable for general consumer use by 2030?" would have been 'Yes'.\
 \
 Their payout would have been: \
-**Payout**: Stake (S) + [(SC% of Winning Bettor's Profit)](opinion-markets.md#service-charge-sc)
+**Payout**: Stake (S) + (SC% of Winning Bettor's Profit)
 
 \=> 500 + 3.334\
 \=> $503.334

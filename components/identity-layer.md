@@ -16,11 +16,11 @@ Certain roles require a unique humanity verification to maintain the integrity o
 
 [**Content Contributor**:](../participants/content-contributor.md) Verified users who produce content for the platform undergo a thorough verification process before they can begin contributing.
 
-[**Active donor**:](broken-reference) Users who can donate to content contributors via Olas funding rounds. Their donations may be magnified via the Quadratic Funding mechanisms, which allocate funds based on both the amount of funding and the number of donors.&#x20;
+[**Active donor**:](../participants/donor.md#donor-classification) Users who can donate to content contributors via Olas funding rounds. Their donations may be magnified via the Quadratic Funding mechanisms, which allocate funds based on both the amount of funding and the number of donors.&#x20;
 
-[**Fact-checker**:](broken-reference) Responsible for identifying inaccuracies in contents, rewarded based on their findings. They undergo a unique human verification process before completing registration.
+[**Fact-checker**:](../participants/fact-checker.md) Responsible for identifying inaccuracies in contents, rewarded based on their findings. They undergo a unique human verification process before completing registration.
 
-[**Judge**:](broken-reference) Evaluates the inaccuracies raised by fact checkers and determines the validity of the issues submitted. Judges are rewarded based on their participation in the judging panel. Fact-checkers with high reputation scores may participate in judging panels as **Super Forecasters**, along with **randomly** selected **content contributors (Judges)**.&#x20;
+[**Judge**:](../participants/judge.md) Evaluates the inaccuracies raised by fact checkers and determines the validity of the issues submitted. Judges are rewarded based on their participation in the judging panel. Fact-checkers with high reputation scores may participate in judging panels as **Super Forecasters**, along with **randomly** selected **content contributors (Judges)**.&#x20;
 
 ### Olas User Registry
 

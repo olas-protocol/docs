@@ -8,11 +8,11 @@ The Tagging System implemented on Olas serves as a pivotal tool for curating and
 
 ### Olas-Generated Tags
 
-Each [Topic Pool](broken-reference) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
+Each [Topic Pool](../markets/funding-markets/news-and-opinion-funding-mechanisms/#news-and-opinion-topic-pools) created on the Olas platform is systematically associated with a set of pertinent tags. These top-level tags play a central role in categorising and organising content within the Olas Ecosystem.
 
 ### User-Generated Tags
 
-Content Contributors play an active role in enhancing the tagging system by associating their articles with existing tags during the initial submission process. The relevance of these tags is subjected to rigorous quality assurance processes specific to the relevant market. For instance, in [Fact Reporting Markets](broken-reference), the scrutiny of tag relevance is conducted by a Judging Panel.
+Content Contributors play an active role in enhancing the tagging system by associating their articles with existing tags during the initial submission process. The relevance of these tags is subjected to rigorous quality assurance processes specific to the relevant market. For instance, in [Fact Reporting Markets](../markets/quality-control-markets/fact-reporting-markets.md), the scrutiny of tag relevance is conducted by a Judging Panel.
 
 Content Contributors also possess the capability to introduce new top-level tags or incorporate lower-level tags (entities), thereby contributing to a more nuanced and intricate tagging structure.
 
