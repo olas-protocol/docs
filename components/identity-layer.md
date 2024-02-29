@@ -18,7 +18,7 @@ Certain roles require a unique humanity verification to maintain the integrity o
 
 [**Active donor**:](broken-reference) Users who can donate to content contributors via Olas funding rounds. Their donations may be magnified via the Quadratic Funding mechanisms, which allocate funds based on both the amount of funding and the number of donors.&#x20;
 
-[**Fact-checker**:](broken-reference) Content Contributors with expertise in identifying inaccuracies in Olas content. They are rewarded based on the validity of their findings as determined by the judging panel.&#x20;
+[**Fact-checker**:](broken-reference) Responsible for identifying inaccuracies in contents, rewarded based on their findings. They undergo a unique human verification process before completing registration.
 
 [**Judge**:](broken-reference) Evaluates the inaccuracies raised by fact checkers and determines the validity of the issues submitted. Judges are rewarded based on their participation in the judging panel. Fact-checkers with high reputation scores may participate in judging panels as **Super Forecasters**, along with **randomly** selected **content contributors (Judges)**.&#x20;
 

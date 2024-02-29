@@ -1,5 +1,5 @@
 ---
-description: Earning Predictability for Protocol Contributors
+description: Predictability for Contributors
 ---
 
 # Stablecoin Overview
