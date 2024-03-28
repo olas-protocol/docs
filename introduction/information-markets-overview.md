@@ -7,7 +7,7 @@ description: Decentralised Collusion-Resistant Quality Control
 Olas' information market-based quality control mechanisms are designed with five assumptions in mind:
 
 1. Information supply today is subject to numerous undesirable incentives. &#x20;
-2. The way to minimise these incentives is to not only remove human hierarchies from the administration of platforms - as discussed in the previous section - but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
+2. The way to minimise these incentives is to not only remove human hierarchies from the administration of platforms  but to also open up the systems of quality control. The two proven mechanisms we have for reliably aggregating information in an open setting are **markets** and **reputation**.
 3. Markets are an incredibly effective tool but their efficacy is dependent on them being designed with the specific problem that's to be solved in mind. Otherwise the incentives involved may be sub-optimal.  &#x20;
 4. Prediction markets, although evidently a powerful tool with great potential, have generally failed to gain mass adoption outside of betting on sport and to a lesser extent politics. Some of the reason for this is regulation, but another major factor, in our view, is that they require subsidies to entice bettors.  &#x20;
 5. The great weakness of open systems is their vulnerability to collusion. Open systems vulnerable to collusion risk devolving into a system just like the one they wish to replace.&#x20;

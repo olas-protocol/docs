@@ -26,5 +26,5 @@ A tagging protocol will ensure articles on a given subject matter will be easily
 
 A curating protocol will enable either humans or autonomous bots construct publications from Olas articles.  &#x20;
 
-Finally, a royalties protocol whereby any contributor whose work is referenced will receive remuneration.&#x20;
+Finally, a royalties protocol whereby any contributor whose work is referenced (or used in the case of photographers) will receive remuneration.&#x20;
 
