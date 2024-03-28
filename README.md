@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-These are _mostly_ technical documents that outline the various components, mechanisms and user interaction with the Olas Protocol. For a deeper discussion of the motivations behind Olas, please refer to the videos and blog posts on the website. There is also an overview of the [economic model](introduction/economic-model-overview.md) on the next page.&#x20;
+These are _mostly_ technical documents that outline the various components, mechanisms and user interaction with the Olas Protocol. For a deeper discussion of the motivations behind Olas, please refer to the videos and blog posts on the website.&#x20;
 
 The Olas protocol is compromised of a number of sub-protocols to meet its goal of being the most trusted information platform on the internet.
 
