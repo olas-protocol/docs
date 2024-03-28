@@ -20,9 +20,11 @@ Quality control will be achieved by market and reputation-based protocols that e
 
 1. Reporting of existing facts
 2. Offering an opinion
-3. Discovering new facts via investigative journalism or scientific research
+3. Discovering new information via investigative journalism or scientific research
 
 A tagging protocol will ensure articles on a given subject matter will be easily searchable across the entire platform.&#x20;
+
+A curating protocol will enable either humans or autonomous bots construct publications from Olas articles.  &#x20;
 
 Finally, a royalties protocol whereby any contributor whose work is referenced will receive remuneration.&#x20;
 
