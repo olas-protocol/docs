@@ -22,13 +22,9 @@ Subscriptions attempt to create artificial scarcity in digital information by ga
 
 Even if undesirable, we don't view subscriptions as a viable model in the impending decentralised internet (web 3). There are already archive websites the younger more tech savvy generation use to circumvent paywalls and coordinating to share subscriptions, articles and podcasts will become even more trivial in web 3. Combatting copyright infringments will become near impossible given the difficulties in censoring decentralised networks.&#x20;
 
-_For a much more in-depth discussion on this, refer to Olas intro video 1._ &#x20;
-
 ### Natural Public Goods are best Subsidised and Offered for Free
 
 It is very well-documented that access to information powers economic growth. Constraining its supply is therefore unsurprisingly damaging to growth. Since it is comparatively cheap to subsidise and trivial to do so in a way that increases competition, it is an ideal candidate to supply as a public rather than private good. Subsidies of naturally private goods tend to reduce quality as it is near impossible to subsidise them without destroying the competitive forces that increase quality and reduce cost. On the other hand, subsidising information and offering it for free is almost certain to be value additive given how it is essentially free to share and reproduce and how society benefits from this knowledge transfer.&#x20;
-
-_For a much more in-depth discussion on this, refer to Olas intro video 2._  &#x20;
 
 ### Truly Ownerless Platforms are now Possible
 
@@ -41,8 +37,6 @@ What is needed is a truly ownerless non-hierarchical platform to avoid these iss
 Another way blockchains have changed the game is via tokenisation. In order for dApps to be trusted their code must be open source and examinable by all given their is nobody at the helm and consequently no recourse if anything goes wrong.  Since open source code is a public good free for anyone to replicate, there has rarely been economic incentive to create this type of software. For that reason the internet is dominate by proprietary platforms with open source relegated to the domain of hobbyists and ideologues.&#x20;
 
 Tokenisation has completely turned this situation on its head by attaching native tokens to open source decentralised applications. If a dApp proves popular, the value of the token, if designed on sound economics, can appreciate much like the stock of a successful business does. This final piece of the jigsaw means that not only makes ownerless platforms possible, they are now viable competitors to proprietary platforms. In fact they possess economic incentives advantages that proprietary platforms don't.
-
-_For a much more in-depth discussion on this, refer to Olas intro video 3._  &#x20;
 
 ### Donations are Becoming a Viable Economic Model
 
