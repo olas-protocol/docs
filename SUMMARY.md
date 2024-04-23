@@ -45,7 +45,3 @@
     * [Review Markets](markets/quality-control-markets/academic-research-markets/review-markets.md)
     * [Replication Markets](markets/quality-control-markets/academic-research-markets/replication-markets.md)
 * [Tipping System](markets/tipping-system.md)
-
-## FAQ
-
-* [Key Terms](faq/key-terms.md)
