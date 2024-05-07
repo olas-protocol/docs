@@ -14,4 +14,4 @@ Below is an overview of the two funding streams available in Olas:
 
 
 
-<figure><img src="../../.gitbook/assets/funding markets.png" alt=""><figcaption><p>Figure 1. Overview of Olas Funding Markets</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/funding markets.png" alt=""><figcaption><p>Figure : Overview of Olas Funding Markets</p></figcaption></figure>

@@ -12,7 +12,7 @@ The BTS algorithm works using on a dual-questioning approach, pairing factual qu
 
 Here is an overview of how it the opinion markets work:
 
-<figure><img src="../../.gitbook/assets/Opinion-market-v2.jpeg" alt=""><figcaption><p>Figure 9. Opinion Market</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Opinion-market-v2.jpeg" alt=""><figcaption><p>Figure : Olas Opinion Market</p></figcaption></figure>
 
 Each opinion piece poses a factual question (Q) paired with a popular opinion question (P) related to the topic ( **Question Formulation** ). Bettors respond to Q and P with bets, staking funds on their beliefs and predictions. BTS evaluates discrepancies between responses to Q and P, identifying the Surprisingly Popular Answer (SPA).
 

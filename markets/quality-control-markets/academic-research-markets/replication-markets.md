@@ -8,7 +8,7 @@ If there's a scientific breakthrough, profits from the review market can be stak
 
 Below is a diagram illustrating the workflow of the replication market, from market creation and betting to outcome resolution and payout distribution. This visual guide demonstrates the interconnected processes and roles within the market.
 
-<figure><img src="../../../.gitbook/assets/Academic and Research Market - Page 1 (5).jpeg" alt=""><figcaption><p>Figure 1. Replication Market Overview</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Academic and Research Market - Page 1 (5).jpeg" alt=""><figcaption><p>Figure : Olas Replication Market Overview</p></figcaption></figure>
 
 The replication market serves three fundamental purposes:
 

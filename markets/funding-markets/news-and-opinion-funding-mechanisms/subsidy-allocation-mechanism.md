@@ -27,7 +27,7 @@ As is the case with contributor competitions, Olas uses a quadratic formula to d
 3. Number of tippers in each topic pool.
 4. Total tips received by each topic pool.
 
-<figure><img src="../../../.gitbook/assets/Olas Subsidy Allocation Mechanism Diagram .png" alt=""><figcaption><p>Figure 3. Subsidy Allocation Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Olas Subsidy Allocation Mechanism Diagram .png" alt=""><figcaption><p>Figure : Olas Subsidy Allocation Mechanism</p></figcaption></figure>
 
 ### **Funds Distribution**
 

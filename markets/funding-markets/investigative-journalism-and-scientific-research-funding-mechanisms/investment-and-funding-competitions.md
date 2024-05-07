@@ -16,7 +16,7 @@ Here is the chronology of the fund raising process:
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (4) (1).png" alt=""><figcaption><p>Figure 1. Investment &#x26; Funding Market Overview</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (4) (1).png" alt=""><figcaption><p>Figure : Investment &#x26; Funding Market Overview</p></figcaption></figure>
 
 </div>
 
@@ -25,7 +25,7 @@ Here is the chronology of the fund raising process:
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (2).png" alt=""><figcaption><p>Figure 2. Quarterly Funding Pool Payout Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Backup - All the diagrams (2).png" alt=""><figcaption><p>Figure : Olas Quarterly Funding Pool Payout Mechanism</p></figcaption></figure>
 
 </div>
 

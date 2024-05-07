@@ -16,6 +16,6 @@ Here is a description of how the stablecoin might work:
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/Issuance and Stability Mechanisms Diagram.png" alt=""><figcaption><p>Figure 1. Olas Issuance and Stability Mechanism</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Issuance and Stability Mechanisms Diagram.png" alt=""><figcaption><p>Figure : Olas Issuance and Stability Mechanism</p></figcaption></figure>
 
 </div>

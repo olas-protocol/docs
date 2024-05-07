@@ -8,7 +8,7 @@ The Fact Reporting Market involves two essential roles. **Fact Checkers** are re
 
 After the contributors submit their articles the fact-checking process begins. During this period, anyone can point out a factual inaccuracy or a misleading contextual omission in the article. These inaccuracies are called **Initial Fact Checking Questions(IFCQ)**.
 
-<figure><img src="../../.gitbook/assets/Olas Judging Panel Architecture.png" alt=""><figcaption><p>Figure 7. Olas Judging Panel Architecture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Olas Judging Panel Architecture.png" alt=""><figcaption><p>Figure : Olas Judging Panel Architecture</p></figcaption></figure>
 
 Next, a random selection is made from a pool of journalists specialising in the relevant article field, having a minimum reputation score, and having requisite funds in their account. From this group of judges, one individual is assigned the role of **Lead Judge**.&#x20;
 

@@ -8,7 +8,7 @@ Quadratic funding is a radically new funding mechanism that not only seeks to cr
 
 Here is a diagram explaining the difference between a theoretical centralised vanilla funding competition and an open quadratic funding competition in the Olas protocol:
 
-<figure><img src="../../../.gitbook/assets/Funding Mechanism Comparisons (1).png" alt=""><figcaption><p>Figure 5. Traditional Funding Mechanism vs Quadratic Funding Mechanism</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Funding Mechanism Comparisons (1).png" alt=""><figcaption><p>Figure : Traditional Funding Mechanism vs Quadratic Funding Mechanism</p></figcaption></figure>
 
 Instead of a committee allocating funds to projects in an X-Factor style competition prone to corruption, funds from donors are matched against available funds in a matching pool. The matching pool for each individual competition represents funds allocated to a given topic by the [subsidy allocation mechanism](subsidy-allocation-mechanism.md). Therefore contributors that propose to write on the same topics compete with each other to raise funds from topic pools. Donors will likely pay a lot of attention to how the journalists have previously performed with their written output, bringing market competition to the provision of these public good (free) articles. The expectation is that this will vastly improve journalists' output - especially given that the [information markets](../../../introduction/information-markets-overview.md) are structured to reward quality.   &#x20;
 
@@ -20,7 +20,7 @@ This formula dictates that the amount received by the project from the matching 
 
 Let's understand this with the help of a diagram:
 
-<figure><img src="../../../.gitbook/assets/Competition Between Content Contributors for Funding .png" alt=""><figcaption><p>Figure 6. Competition between Content Contributors For Funding</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Competition Between Content Contributors for Funding .png" alt=""><figcaption><p>Figure : Competition between Content Contributors For Funding</p></figcaption></figure>
 
 If there is insufficient funds in the matching pool to match the funds to meet the requirements of the quadratic funding formula, each contributor will receive a reduced payout in proportion to the relative claims over the matching pool.&#x20;
 

@@ -8,7 +8,7 @@ The Academic Reporting Market involves two essential roles. **Methodology Checke
 
 After the scientists submit their research, the methodology checking process begins. During this period, anyone can point out an **inaccuracy** in the research. These inaccuracies are called **Initial Methodological Issues (IMIs)**.
 
-<figure><img src="../../../.gitbook/assets/olas review markets diagram.png" alt=""><figcaption><p>Figure 7. Olas Review Markets</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/olas review markets diagram.png" alt=""><figcaption><p>Figure : Olas Review Markets</p></figcaption></figure>
 
 Next, a random selection is made from a pool of scientists specialising in the relevant article field, having a minimum reputation score, and having requisite funds in their account. Further a few open seats can be filled by those with proven ability with scientific and statistical methods. Unlike the Fact Reporting Market, there is no lead judge to collate issues as it is envisaged the issues raised will be fewer and more complex in this market.&#x20;
 

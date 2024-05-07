@@ -4,7 +4,7 @@
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Olas Reputation System.png" alt=""><figcaption><p>Figure 11. Olas Reputation System</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Olas Reputation System.png" alt=""><figcaption><p>Figure : Olas Reputation System</p></figcaption></figure>
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Contributor Reputation.png" alt=""><figcaption><p>Figure 12. Contributor Reputation Process</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Contributor Reputation.png" alt=""><figcaption><p>Figure : Contributor Reputation Process</p></figcaption></figure>
 
 </div>
 
@@ -32,7 +32,7 @@
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Judge Reputation 2.png" alt=""><figcaption><p>Figure 13. Judge Reputation Process</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Judge Reputation 2.png" alt=""><figcaption><p>Figure : Judge Reputation Process</p></figcaption></figure>
 
 </div>
 
@@ -50,7 +50,7 @@ Fact-checkers who submit a high volume of invalid issues over a short period (i.
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Fact Checker Reputation 2.png" alt=""><figcaption><p>Figure 14. Fact Checker Reputation Process</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Fact Checker Reputation 2.png" alt=""><figcaption><p>Figure : Fact Checker Reputation Process</p></figcaption></figure>
 
 </div>
 
@@ -65,6 +65,6 @@ Fact-checkers who submit a high volume of invalid issues over a short period (i.
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Olas Reputation System (1).png" alt=""><figcaption><p>Figure 15. Updates for User Reputation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Olas Reputation System (1).png" alt=""><figcaption><p>Figure : Updates for User Reputation</p></figcaption></figure>
 
 </div>

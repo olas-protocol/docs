@@ -29,4 +29,5 @@ Below the Sector Pools is a further layer of Topic Pools. These topic pools repr
 
 
 
-<figure><img src="../.gitbook/assets/Funding Pools Diagram Olas.png" alt=""><figcaption><p>Figure 1. Funding Pools</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Funding Pools Diagram Olas.png" alt=""><figcaption><p>Figure : Funding Pools</p></figcaption></figure>
+

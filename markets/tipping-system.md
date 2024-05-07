@@ -10,4 +10,4 @@ Advances in payments technology, specifically in the area of blockchain technolo
 
 By tying tips to market performance however, authors are still incentivised to choose accuracy over populism. Tips to an article that aren't paid to a Content Contributor on account of the article's score, are paid into the Olas Global Pool and will be used to fund other work.&#x20;
 
-<figure><img src="../.gitbook/assets/Tipping System.png" alt=""><figcaption><p>Figure 16. Tipping System</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Tipping System.png" alt=""><figcaption><p>Figure : Olas Tipping System</p></figcaption></figure>

@@ -6,7 +6,7 @@ description: Overview of the Olas Identity Layer.
 
 The Identity Layer is a fundamental aspect of Olas, dedicated to ensuring unique identification, verification, and role assignment for each user within the ecosystem. This layer underscores the importance of **user authenticity, role-based access control,** and the **option for pseudonymity**.
 
-<figure><img src="../.gitbook/assets/Olas Identity Layer (1).png" alt=""><figcaption><p>Figure 1. Olas Identity Layer Architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Olas Identity Layer (1).png" alt=""><figcaption><p>Figure : Olas Identity Layer Architecture</p></figcaption></figure>
 
 While Olas is open for reading by anyone, active participation and access to certain functionalities require users to demonstrate their _uniqueness and humanness_. To safeguard against [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack) and ensure a trustworthy platform, Olas employs mechanisms such as Proof Of Unique Human (PoUH) or [Proof Of Personhood (PoP)](https://en.wikipedia.org/wiki/Proof\_of\_personhood). These protocols verify the distinct identity and humanness of users, thus fostering secure and authentic community engagement within the Olas ecosystem.
 

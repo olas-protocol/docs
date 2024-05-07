@@ -4,7 +4,7 @@ description: 'Olas Reputation Systems: An Overview'
 
 # Reputation Systems
 
-## Understanding Reputation Score
+### Understanding Reputation Score
 
 A Reputation Score (RS) is a numerical representation of a market participant's past performance and in the Olas markets. A reputation score is assigned to individuals who assume qualifying roles within each of the respective information markets, such as **Content Contributors, Fact Checkers,** or **Judges**. An individual's RS fluctuates based on their interactions and performance within each market. The RS system is designed to encourage market participants to make quality contributions and to be held accountable for the work they carry out on the platform.
 
@@ -30,7 +30,5 @@ A Reputation Score (RS) is a numerical representation of a market participant's 
 ### Case Study 3: Judge
 
 **Scenario**: Charlie, a judge, consistently provides good judgments whilst voting in judging panels, thereby maintaining a high RS. However, several instances of rushed, inaccurate judgments cause a slight dip in his RS, temporarily limiting his access to more exclusive and higher-paying judging panel opportunities until he regains his previous RS by making better judgments in subsequent judging panels.
-
-
 
 These case studies underscore the dynamic nature of an individual's RS within Olas, illustrating how different actions and roles interact with the reputation system to shape an individual's experience, earning potential, and opportunities within the ecosystem.

@@ -21,7 +21,7 @@ When an article Attestation ID is cited, the originating author receives a prede
 
 Following the closure of an information market, the citation engine is updated with the market results, including content scores and Attestation IDs, for archival and future reference. The Citation Engine assigns royalties to content contributors depending on various factors.
 
-<figure><img src="../../.gitbook/assets/Olas Citation System.png" alt=""><figcaption><p>Figure 10. Citation System</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Olas Citation System.png" alt=""><figcaption><p>Figure : Citation System</p></figcaption></figure>
 
 ## Royalty Fee Algorithms
 
