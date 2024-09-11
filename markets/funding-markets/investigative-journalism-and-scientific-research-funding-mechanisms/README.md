@@ -31,6 +31,6 @@ An investigative journalist or group of scientists with a lead or an idea can se
 The Olas funding mechanism offers several benefits, including:
 
 * It allows funds be allocated in a decentralised non-hierarchical fashion, somewhat removing politics from the equation
-* It enables people to fund interesting research questions and have the possibility of returing a profit on their investment if people find the outcome of the research valuable&#x20;
+* It enables people to fund interesting research questions and have the possibility of returning a profit on their investment if people find the outcome of the research valuable&#x20;
 * It enables contributors to grant open access to their work without needing to worry about being rewarded for it&#x20;
 
