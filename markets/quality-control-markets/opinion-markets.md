@@ -6,15 +6,17 @@ description: Leveraging Bayesian Truth Serum to Reward Correct Contrarians
 
 The Opinion Markets within Olas serve as a platform where contributors offer diverse opinions and predictions on various subjects. The great weakness of traditional prediction markets in this sector is that bettors are more incentivised to bet on what they believe the majority believes to be true rather than what they know to be true themselves. This biases outcomes to popularly held but incorrect beliefs.&#x20;
 
-The **Bayesian Truth Serum (BTS) algorithm** was specifically designed to remedy this bias. Olas employs this algorithm via the article tipping/commenting system and implements a specially designed market on top of it to reward contrarians that believe they hold correct but unpopular beliefs. If it turns out that there are others that share this position in greater numbers than alternative possibilities, they will be rewarded. The market will provide a signal to everyone else that this 'surprisingly popular' answer is likely to be the most insightful.&#x20;
+The **Bayesian Truth Serum (BTS) algorithm** was specifically designed to remedy this bias. Olas employs this algorithm via the article tipping/commenting system and implements a specially designed market on top of it to reward contrarians that believe they hold correct but unpopular beliefs. If it turns out that there are others that share this position in greater numbers than alternative possibilities - the market will provide a signal to everyone else that this 'surprisingly popular' answer is likely to be the most insightful.&#x20;
 
-The BTS algorithm works using on a dual-questioning approach, pairing factual queries with predictions of popular opinions. This removes the disincentive to bet that's found in a vanilla prediction market as people can bet both on what they believe to be true and what they believe others think to be true. Not only does it remove the disincentive involved when one holds what they believe to be an unpopular opinion, but it introduces a profit incentive by betting on one's true beliefs because those that bet thinking that they are in the majority actually provide a subsidy to those that know both the majority opinion _and_ the most truthful/accurate one.&#x20;
+The BTS algorithm works using on a dual-questioning approach, pairing factual queries with predictions of popular opinions.
 
 Here is an overview of how it the opinion markets work:
 
-<figure><img src="../../.gitbook/assets/Opinion-market-v2.jpeg" alt=""><figcaption><p>Figure : Olas Opinion Market</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BTS_ Opinion Market - Page 1.png" alt=""><figcaption><p>Olas Opinion Market</p></figcaption></figure>
 
-Each opinion piece poses a factual question (Q) paired with a popular opinion question (P) related to the topic ( **Question Formulation** ). Bettors respond to Q and P with bets, staking funds on their beliefs and predictions. BTS evaluates discrepancies between responses to Q and P, identifying the Surprisingly Popular Answer (SPA).
+
+
+Each opinion piece poses a factual question (Q) paired with a popular opinion question (P) related to the topic ( **Question Formulation** ). Tippers respond to question Q and P with tips and voice their opinions. BTS evaluates discrepancies between responses to Q and P, identifying the Surprisingly Popular Answer (SPA).
 
 #### Discrepancy in the BTS Method:
 
@@ -27,14 +29,20 @@ Example**:**
 
 The discrepancies highlight the difference between participants' actual responses and their predictions regarding the collective opinion. This variance is crucial in identifying the SPA, which is the response with the larger discrepancy, as it signifies an unexpected or contrary view compared to popular expectation.
 
-## Formulas for Payout Calculations
+#### Market Outcome:
 
-**Alignment in the Opinion Market:**
+Once the market is settled, there can be 2 outcomes - **Popular Answer (PA)** or **Surprisingly Popular Answer (SPA).** PA occurs when there are not enough contrarian opinions on the other hand SPA happens when there are enough contrarian opinions.\
 
-* **Participant Alignment:** When a participant's response aligns with the Surprisingly Popular Answer (SPA) for the factual question (Q).
-* **Content Contributor Alignment:** Indicates alignment when a content contributor's stance in the opinion piece aligns with the Surprisingly Popular Answer.
 
-**Discrepancy Calculation:**
+In the both the cases, the Content Contributor is paid a payout depending on where the market stands (i.e. market share on writer's side).
+
+## Payout Mechanisms
+
+### Deciding Market Outcome
+
+Once market expires and is ready to settle, we calculate the SPA strength (s) and dynamic threshold (t)  to determine if an SPA exists or not.
+
+#### **Discrepancy Calculation:**
 
 $$\boxed{  D_y \, = \, Q_y \, - P_y \,}$$
 
@@ -52,141 +60,255 @@ $$P_n$$ is the percentage of participants who voted "NO" for P
 
 $$\boxed{  Spread \, ( \, X\% \, ) \, = \, |D_y| \, + \, |D_n| }$$
 
-**Spread (X%)** is the sum of the absolute value of discrepancy for Yes and the absolute value of discrepancy for No.\
+**Spread (X%)** is the sum of the absolute value of discrepancy for Yes and the absolute value of discrepancy for No.
+
+#### **Dynamic Threshold (t)**
+
+**Dynamic Threshold** is a percentage value which helps us decide if an SPA exists or not. It is calculated using a logarithmic graph which takes into account the total number of participants in the market.
+
+<figure><img src="../../.gitbook/assets/threshold_function.png" alt=""><figcaption><p>Dynamic Threshold</p></figcaption></figure>
+
+$$
+t(n) = \begin{cases} 
+    18 & \text{ if } n \leq 10 \\[1ex] 
+    6 + 12 \cdot \left(1 - \left(\frac{\ln(n/10)}{\ln(500)}\right)^{0.4}\right) & \text{ if } 10 < n < 5000 \\[1ex] 
+    6 & \text{ if } n \geq 5000 
+\end{cases} \\
+
+\begin{aligned}
+\text{Where:} \\
+& \bullet \ n \text{ is the sample size} \\
+& \bullet \ t(n) \text{ is the threshold percentage of total votes required} \\
+& \bullet \ \ln \text{ is the natural logarithm}
+\end{aligned}
+$$
+
+### **When does the market resolve to an outcome of SPA ?**
+
+If the SPA spread ratio (X%)  exists with a strength of greater than or equal to dynamic threshold (t), we say that SPA exists.
+
+$$
+if( X ≥ t) \ \text{SPA exists} \\
+
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \text{ X is the SPA spread ratios} \\
+& \bullet \ \text{t is dynamic threshold} \\
+\end{aligned}
+$$
 
 
-#### **Contributor/Olas Fee**
 
-All winning bettors are taxed a certain percentage (TBD). Depending on which side wins, the contributor's opinion of those betting against it, this tax will be paid to the contributor or the Olas global pool. This is to reward contributors for submitting a good opinion that was validated by the market or, in the case of the opinion being found to be wrong by the market, to provide Olas with funds to fund better opinions in the future.&#x20;
+### **Surprisingly Popular Answer (SPA) Payout Mechanism**
 
-### 1: **Bettor** Payout Calculations
+<figure><img src="../../.gitbook/assets/screenshot 2024-10-24 at 11.49.20 PM.png" alt=""><figcaption><p>SPA Payout Curve</p></figcaption></figure>
 
+#### **SPA Strength (s)**
+
+SPA Strength (s) is SPA spread (X%) capped to a limit of **t to 2.5t.**
+
+$$
+\text{s}(X, t) = \min\left(2.5 \cdot t, \max\left(t, \text{X}\right)\right) \\
+
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \ t \text{ is the threshold} \\
+& \bullet \ \text{X is the SPA spread} \\
+\end{aligned}
+$$
+
+#### **SPA Influence (i)**
+
+This is what decides how much of an influence SPA has on the market, it ranges from 0 to 1. 0 being 0% influence of SPA and 1 being 100% influence of SPA on the market.
+
+
+
+$$
+\text{i}(s, t) = (s-t)/1.5t \\
+
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \text { 0 ≤ i ≤ 1 } \\
+& \bullet \ s \text{ is the SPA strength} \\
+& \bullet \ \text{t is the SPA threshold percentage} \\
+\end{aligned}
+$$
+
+#### **Curvature Factor (c)**
+
+Decides the curvature of the curve
+
+$$
+c = 0.7 \cdot i \\
+
+\begin{aligned} 
+\text{where:} \
+& \text {0 ≤ c ≤ 0.7} \\
+\end{aligned}
+$$
+
+
+
+#### SPA Payout Percentage
+
+This function takes into account the influence (i) (which is calculated using the SPA strength and threshold), the market share from writer's perspective and the curvature (decided via the influence) to come up with a percentage value that dictates how we payout the Content Contributor.\
 \
-$$\boxed{ Payout = B_i \, - \, L_i \, + \, P_i }$$\
-\
-$$B_i \, = \, Individual \,\, bet, \, i \, \in \, Bettors$$\
-$$L_i \, = \, Bettor's \,\, loss, \, \forall \, i \, \notin \, SPA$$\
-$$P_i \, = \, Bettor's \,\, profit, \, \forall \, i \, \in \, SPA$$
-
-*   #### **Bettor Not Aligned with SPA (Non-Aligned):**
-
-    \
-    $$\boxed{ L_i \, = \, \mathbf B_\mathbf i \, \times \, ( \, 2 \, \times  X\% \, ) \, , \, \forall \, X \, \geqslant \, 50\% \, Bettors \, lose \, 100\% \, \, of \, their \, bet }$$\
-    \
-    $$L_i : \, Individual \, bettor's \, loss$$\
-    \
-    $$\displaystyle\sum_{i=0}^n L_i \, = \, All \, losing \, bettor's \, total \, loss$$\
-    \
-    $$B_i : Losing \, Better , \, \forall \, i \, \notin \, SPA$$\
 
 
-Spread is capped at 50%, an SPA determined with spread (X%) will penalize bettors to lose their bets by 100%.\
-_Total funds for winners = All losing Bettor’s total Loss_
+$$
+f(x, t, s) = \begin{cases} 
+    0.5 + 0.5\cdot i 
+    & \text{if } x = 0 \\[2ex]
+    
+    0.5 + 0.5\cdot i \cdot \left(1 - \left(\frac{x}{0.45}\right)^{\frac{1}{1-c}}\right)
+    & \text{if } 0 < x < 0.45 \\[2ex]
+    
+    0.5
+    & \text{if } 0.45 \leq x \leq 0.55 \\[2ex]
+    
+    0.5 - 0.5\cdot i \cdot \left(1 - \left(1 - \frac{x-0.55}{0.45}\right)^{\frac{1}{1-c}}\right)
+    & \text{if } 0.55 < x < 1 \\[2ex]
+    
+    0.5 \cdot (1 - i)
+    & \text{if } x = 1
+\end{cases}\\
 
-*   #### **Bettor Aligned with SPA**
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \ x \text{ is the market share from writer's perspective} \\
+& \bullet \text{ i is the SPA influence on market payout} \\
+& \bullet \ c \text{ is the curvature}
+\end{aligned}
+$$
 
-    \
-    $$\boxed{  P \, = \, \Biggr( \dfrac{ B}{\displaystyle\sum_{j=0}^n \, B_j}  \Biggr) \,  \times \, \Biggr( \, \,   \displaystyle\sum_{i=0}^n L_i  \, - \, Service \, charge \, \Biggr) }$$\
-    \
-    $$P \, = \, Individual \, bettor's \, profit$$\
-    $$B \, : \, Individual \, bet$$\
-    \
-    $$\displaystyle\sum_{j=0}^n \, B_j \, : \, Sum \, of \, all \, winning \, bettor's \,  bet$$\
-    \
-    $$\displaystyle\sum_{i=0}^n L_i \, = \, All \, losing \, bettor's \, total \, loss$$
+#### SPA Payout&#x20;
 
-### 2: Content Contributor Payout Calculations
+$$
+Pspa = f(x,t,s) \cdot (T +  S) \\
 
-* When the **content** **contributor's stance aligns** with the SPA, they get their stake back and service charge.\
-  \
-  $$\boxed{ Payout \, = \, S_i \, + \,  Service \, Charge }$$\
-  $$S_i \, = \, Content \, Contributor's \, stake$$\
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \text{f is the SPA Payout percentage} \\
+& \bullet \text{x is the market share from writer's perspective} \\
+& \bullet \text{T is the total tips received} \\
+& \bullet \text{S is the writer's original stake}
+\end{aligned}
+$$
 
-* When the **content contributor's stance doesn't align** with the SPA:\
-  \
-  $$\boxed{ Payout \, = \, S_i \, \times \, ( 100\% - 2 \times X\%), \,  \forall  \, X \, \geqslant 50\% \, Content \, Contributor \, loses \,  100\% \, of \, their \, stake }$$\
-  $$2 \, \times \, X \% \, \, is \, capped \, at \, 100 \%$$\
-  $$S_i \, = \, Content  \, Content's \, stake$$\
-  $$Note : Slashed \, stake \, and \, service \, charge \, will \, go \, to \, OLAS \, global \, pool.$$
+### **When does the market resolve to an outcome of PA?**
 
-## Example illustrating payout calculations&#x20;
+$$
+if( X < t) \ \text{ PA exists} \\
 
-Let's consider the following scenario:
+\begin{aligned} \\
+\text{where:} \\
+& \bullet \text{ X is the SPA spread ratio} \\
+& \bullet \ \text{t is dynamic threshold} \\
+\end{aligned}
+$$
 
-* **Factual Question (Q):** Will quantum computing become commercially viable for general consumer use by 2030?
-* **Popular Opinion Question (P):** What do you think most people will respond to the question regarding quantum computing's commercial viability by 2030?
+### **Popular Answer (PA) Payout Mechanism**
 
-**Participants and Their Bets:**
+$$
+\begin{aligned}
+\textbf{Parameters:} & \\
+& \bullet \ x && \text{Market Share} && (0 \leq x \leq 1) \\
+& \bullet \ T && \text{Total Tips} \\
+& \bullet \ S_{\text{min}} && \text{Minimum Stake} \\
+& \bullet \ S_{\text{max}} && \text{Maximum Stake} \\
+& \bullet \ S && \text{Stake Amount} \\
+& \bullet \ r && \text{Reputation Score} && (0\text{-}100) \\[2ex]
+\textbf{Constants:} & \\
+& \bullet \ c_{\text{low}} && = 0.85 && \text{(Curvature for } 0 \leq x < 0.45\text{)} \\
+& \bullet \ c_{\text{high}} && = 0.65 && \text{(Curvature for } 0.55 < x \leq 1\text{)} \\
+& \bullet \ p && = 0.3 && \text{(Stake power)} \\
+& \bullet \ \alpha && = 0.7 && \text{(Low stake penalty factor)} \\
+& \bullet \ m && = 0.03 && \text{(Middle curvature)} \\
+& \bullet \ k && = 1 && \text{(High performance multiplier factor)}
+\end{aligned}
+$$
 
-| Bettor | Stake | Q's response | P's response |
-| ------ | ----- | ------------ | ------------ |
-| A      | $50   | Yes          | Yes          |
-| B      | $30   | No           | No           |
-| C      | $40   | Yes          | No           |
-| D      | $20   | No           | Yes          |
-| E      | $60   | Yes          | Yes          |
-| F      | $100  | Yes          | No           |
+#### **PA Payout**
 
-**Content Contributor:**
+We calculate the payout for popular answer by using a base curve which is influenced by various multipliers and penalties explained below.
 
-* Content Contributor J: Stakes $500 on the opinion piece, stating "Quantum computing will not be commercially viable for general consumer use by 2030".
+$$
+Ppa(x, T, S, r) = \min\left(T,
+   \left(\frac{B(x)}{F(T, S)} \cdot L(x, T, S) \cdot H(x, S)\right) \cdot R(r, \text{Potential_Max_Payout})
+\right)
+$$
 
-**Calculation of Responses:**
+#### **Base Payout B(x)**
 
-* Participants' Response to Q:\
-  \- Yes: ( 66.67% )\
-  \- No: ( 33.33% )
-* Participants' Response to P:\
-  \- Yes: ( 50% )\
-  \- No: ( 50% )
+**This determines the base curve for the popular answer payout mechanism.**
 
-**Surprisingly Popular Answer (SPA) Calculation:**
+<figure><img src="../../.gitbook/assets/screenshot 2024-10-24 at 11.27.09 PM.png" alt=""><figcaption><p>PA Payout Curve</p></figcaption></figure>
 
-* Discrepancy for Yes: 66.67% (Q) - 50% (P) = +16.67%
-* Discrepancy for No: 33.33% (Q) - 50% (P) = -16.67%
-* Spread ( X% ) = $$|D_y| \, + \, |D_n|$$ = 33.34%
-* SPA: Yes ( +16.67% > -16.67%)
+$$
+B(x) = T \cdot \begin{cases}
+    0.5 \cdot \left(\frac{x}{0.45}\right)^{2c_{\text{low}} + 1} 
+    & \text{if } 0 \leq x < 0.45 \\[2ex]
+    
+    0.5 + (x - 0.5) \cdot m 
+    & \text{if } 0.45 \leq x \leq 0.55 \\[2ex]
+    
+    1 - 0.5 \cdot \left(\frac{1-x}{0.45}\right)^{2c_{\text{high}} + 1} 
+    & \text{if } 0.55 < x \leq 1
+\end{cases}
+$$
 
-#### **Calculating Payouts:**
+#### **Stake Factor F(T, S)**
 
-{% hint style="info" %}
-Bettor’s Loss = $$L_i \, = \, \mathbf B_\mathbf i \, \times \, ( \, 2 \, \times  X\% \, ) \, , \, \forall \, X \, \geqslant \, 50\% \, Bettors \, lose \, 100\% \, \, of \, their \, bet$$\
-Total funds for winners = Losing Bettor’s Loss = Losing Side Total Bets \* (2 \* X% )
-{% endhint %}
+Stake factor influences the base payout curve depending on the ratio of Tips to Stake throughout the spectrum.
 
-Losing Bettor’s Loss = ($30 + $20) \* ( 2\* 33.34%)\
-\=> $33.34
+$$
+F(T, S) = \left(\frac{T}{S}\right)^p
+$$
 
-Total funds for winners = $33.34
+#### **Low Stake Penalty L(x, T, S)**
 
-Service charge = 10% \* 33.34 ( Assuming SC% = 10%) = $3.334\
-\
-Total funds for winners - Service Charge = 33.34 - 3.334 = $ 30.006
+Penalizes for low stake when the market share is less than 45%.
 
-<table data-full-width="true"><thead><tr><th width="97">Bettor</th><th width="77">Stake</th><th width="171">Loss = bet*(2*X%)</th><th width="486.25">Profit = ( Bet / Total Bets by Winners) * ( Total funds for winners - Service Charge )</th><th>Payout</th></tr></thead><tbody><tr><td>A</td><td>$50</td><td>0</td><td>( 50/250 ) * 30.006 = $6.002</td><td>$56.002</td></tr><tr><td>B</td><td>$30</td><td>30 * (2 * 33.34% ) = $20.004</td><td>0</td><td>$9.996</td></tr><tr><td>C</td><td>$40</td><td>0</td><td>( 40/250 ) * 30.006 = $4.80096</td><td>$44.80096</td></tr><tr><td>D</td><td>$20</td><td>$13.336</td><td>0</td><td>$6.664</td></tr><tr><td>E</td><td>$60</td><td>0</td><td>( 60/250 ) * 30.006 = $7.20144</td><td>$67.20144</td></tr><tr><td>F</td><td>$100</td><td>0</td><td>( 100/250 ) * 30.006 = $12.0024</td><td>$112.0024</td></tr></tbody></table>
+$$
+L(x, T, S) = \begin{cases}
+   1 - \left(\frac{0.45 - x}{0.45}\right)^{\alpha} \cdot \left(1 - \frac{S}{T}\right)
+   & \text{if } x < 0.45 \\[2ex]
+   
+   1 
+   & \text{if } x \geq 0.45
+\end{cases}
+$$
 
-{% hint style="warning" %}
-When content contributor's stance doesn't align with SPA, they get penalized $$\propto 2 \times Spread$$
-{% endhint %}
+#### **Reputation Multiplier R(r, Potential\_Max\_Payout)**
 
-**Now, the Content contributor's** initial stance to **(Q):** "Will quantum computing become commercially viable for general consumer use by 2030?" was No.\
-Their payout would be:
+$$
+R(r, \text{Potential\_Max\_Payout}) = 1 + \frac{r}{100} \cdot \frac{T - \text{Potential\_Max\_Payout}}{\text{Potential\_Max\_Payout}}
+$$
 
-**Payout:** Stake (S) \* (100% - (2 \* X% ))
+We calculate the potential max payout, by assuming a market share of 100%
 
-\=> 500 \* ( 100% - 2\* 33.34%)\
-\=> 500 \* ( 100% - 66.68% )\
-\=> 500 \* 33.32%\
-\=> $166.6
+$$
+\begin{aligned}
+& \text{Potential\_Max\_Payout}(T, S, S_{\text{min}}, S_{\text{max}}) = \\
+& = \min\left(T, \frac{B(x=1)}{F(T, S)} \cdot L(x=1,T,S) \cdot H(x=1, S)\right) \\[2ex]
+& = \min\left(T, \frac{T}{F(T, S)} \cdot 1 \cdot H(x=1, S)\right) \\[2ex]
+& = \min\left(T, \frac{T}{F(T, S)} \cdot H(x=1,S)\right)
 
-{% hint style="success" %}
-When content contributor's stance aligns with SPA, they get the whole stake along with the service charge.
-{% endhint %}
+\end{aligned}
+$$
 
-Let's assume their initial stance to **(Q):** "Will quantum computing become commercially viable for general consumer use by 2030?" would have been 'Yes'.\
-\
-Their payout would have been: \
-**Payout**: Stake (S) + (SC% of Winning Bettor's Profit)
 
-\=> 500 + 3.334\
-\=> $503.334
+
+**Alignment in the Opinion Market:**
+
+* **Participant Alignment:** When a participant's response aligns with the Surprisingly Popular Answer (SPA) for the factual question (Q).
+* **Content Contributor Alignment:** Indicates alignment when a content contributor's stance in the opinion piece aligns with either the Popular Answer or Surprisingly Popular Answer.
+
+
+
+#### **Olas Global Pool Fee**
+
+Any amount from Total Tips or Content Contributor's Stake not going to the Writer goes to the Olas Global Pool to fund better opinions in the future.&#x20;
+
+
+
