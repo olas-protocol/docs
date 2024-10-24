@@ -10,7 +10,7 @@ The **Bayesian Truth Serum (BTS) algorithm** was specifically designed to remedy
 
 The BTS algorithm works using on a dual-questioning approach, pairing factual queries with predictions of popular opinions.
 
-Here is an overview of how it the opinion markets work:
+Here is an overview of how the opinion markets work:
 
 <figure><img src="../../.gitbook/assets/BTS_ Opinion Market - Page 1.png" alt=""><figcaption><p>Olas Opinion Market</p></figcaption></figure>
 
